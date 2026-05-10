@@ -58,6 +58,7 @@ Tools for building deterministic, repeatable AI coding workflows.
 | [Archon](https://github.com/coleam00/Archon) | The first open-source harness builder for AI coding to make AI coding deterministic | Python |
 | [Harness Engineering](https://openai.com/index/harness-engineering/) | Blog post detailing harness engineering techniques for building reliable AI systems | Blog |
 | [Agent of Empires](https://github.com/njbrake/agent-of-empires) | Manage multiple Claude Code, OpenCode, and other AI coding agents via TUI or Web | Go |
+| [IBM Bob](https://bob.ibm.com/) | Enterprise AI coding agent with agentic modes, literate coding (human language), real-time code reviews, enterprise ecosystem integration | SaaS |
 
 ---
 
@@ -165,6 +166,7 @@ Tools for retrieval-augmented generation and knowledge graph management.
 | [LightRAG](https://github.com/hkuds/lightrag) | [EMNLP2025] Simple and Fast Retrieval-Augmented Generation in Python | Python |
 | [LAT.md](https://github.com/1st1/lat.md) | Agent Lattice: a knowledge graph for your codebase, written in markdown | Markdown |
 | [PageIndex](https://github.com/VectifyAI/PageIndex) | Document Index for Vectorless, Reasoning-based Retrieval-Augmented Generation | Python |
+| [LLM Wiki v2](https://gist.github.com/rohitg00/2067ab416f7bbe447c1977edaaa681e2) | Extends Karpathy's LLM Wiki pattern with memory lifecycle, confidence scoring, hybrid search, multi-agent sync | Markdown |
 
 ---
 

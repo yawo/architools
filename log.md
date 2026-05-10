@@ -11,6 +11,8 @@
 
 ## 2026-05-10
 
+- **17:15** — Added IBM Bob (enterprise AI coding agent) to AI Coding Assistants & Harnesses
+- **17:15** — Added LLM Wiki v2 (extends Karpathy's pattern with memory lifecycle) to RAG & Knowledge Graphs
 - **17:00** — Bulk update: Added 70+ tools from github_tools.csv across 15 categories
   - Agent Runtimes & Frameworks: Everything Claude Code, Superpowers, Awesome Claude Code, Pika Skills, Autonovel, Agency Agents, Hyperbrowser, AgentField, CocoIndex, Awesome Hermes Agent, ACPX, Career Ops
   - AI Coding Assistants: GSD, BMAD-METHOD, Archon, Harness Engineering, Agent of Empires
