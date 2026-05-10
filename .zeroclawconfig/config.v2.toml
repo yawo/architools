@@ -213,13 +213,13 @@ session_path = "~/.zeroclaw/whatsapp-session.db"
 allowed_numbers = ["*"]
 mention_only = false
 enabled = true
-approval_timeout_secs = 300
+approval_timeout_secs = 500
 dm_mention_patterns = []
-dm_policy = "allowlist"
+dm_policy = "all"
 group_mention_patterns = []
-group_policy = "allowlist"
+group_policy = "all"
 mode = "business"
-self_chat_mode = false
+self_chat_mode = true
 
 [backup]
 compress = true

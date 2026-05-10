@@ -20,10 +20,12 @@ A curated collection of tools, frameworks, and infrastructure for architecture a
 - [Video & Media Generation](#video--media-generation)
 - [Web Scraping & Automation](#web-scraping--automation)
 - [French Admin & Finance Skills](#french-admin--finance-skills)
+- [Developer Utilities](#developer-utilities)
 
 ---
 
 ## Agent Runtimes & Frameworks
+<<<<<<< HEAD
 
 Tools for building, running, and managing AI agents.
 
@@ -225,18 +227,29 @@ Tools for web scraping, crawling, and browser automation.
 
 | Tool | Description | Language |
 |------|-------------|----------|
+| [Cloak Browser](https://github.com/CloakHQ/CloakBrowser) | Stealth Chromium browser that passes bot detection tests; drop-in Playwright replacement with source-level fingerprint patches | Various |
 | [Scrapling](https://github.com/D4Vinci/Scrapling) | Adaptive Python web scraping framework for tasks from single requests to full-scale crawls | Python |
 
 ---
 
+=======
+...
+>>>>>>> c01ccb4 (Auto-update: 2026-07-09 - Added Leaf to Developer Utilities)
 ## French Admin & Finance Skills
+...
+## Developer Utilities
 
-Collections de skills IA spécialisés dans la paperasse, comptabilité, fiscalité et gestion françaises.
+Tools for terminal productivity and development workflows.
 
+<<<<<<< HEAD
 | Tool | Description | Language |
 |------|-------------|----------|
 | [Paperasse](https://github.com/romainsimon/paperasse) | 6 skills pour agents IA : Comptable, Contrôleur Fiscal, Commissaire aux Comptes, Fiscaliste, Notaire, Syndic | Markdown |
+=======
+| Tool | Description | Stars | Language |
+|------|-------------|-------|----------|
+| [Leaf](https://github.com/RivoLink/leaf) | Terminal Markdown previewer with GUI-like experience | 1.1k | Rust |
+>>>>>>> c01ccb4 (Auto-update: 2026-07-09 - Added Leaf to Developer Utilities)
 
----
 
 *Last updated: 2026-05-10*

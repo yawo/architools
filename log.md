@@ -29,3 +29,4 @@
   - Voice/Audio: Smol Audio, Voicebox, VibeVoice
   - Video: Hyperframes
   - Web Scraping: Scrapling
+- **21:52** — Added [Cloak Browser](https://github.com/CloakHQ/CloakBrowser) to Web Scraping & Automation (stealth Chromium browser that passes bot detection tests)
