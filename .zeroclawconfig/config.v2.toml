@@ -1,0 +1,700 @@
+schema_version = 2
+
+[providers]
+fallback = "custom:http://0.0.0.0:3001/v1"
+
+[providers.models."custom:http://0.0.0.0:3001/v1"]
+base_url = "http://0.0.0.0:3001/v1"
+model = "my-model-id"
+api_key = "hotepisgreat"   
+temperature = 0.3
+
+[observability]
+backend = "none"
+runtime_trace_mode = "none"
+runtime_trace_path = "state/runtime-trace.jsonl"
+runtime_trace_max_entries = 200
+
+[autonomy]
+level = "full"
+workspace_only = false
+allowed_commands = ["*"]
+forbidden_paths = ["/root"]
+max_actions_per_hour = 40
+max_cost_per_day_cents = 10000
+require_approval_for_medium_risk = false
+block_high_risk_commands = false
+shell_env_passthrough = []
+auto_approve = [
+    "file_read",
+    "memory_recall",
+]
+always_ask = []
+allowed_roots = ["~/.zeroclaw/workspace"]
+non_cli_excluded_tools = []
+shell_timeout_secs = 60
+
+[security.sandbox]
+backend = "none"
+firejail_args = []
+
+[security.resources]
+max_memory_mb = 1024
+max_cpu_time_seconds = 60
+max_subprocesses = 10
+memory_monitoring = true
+
+[security.audit]
+enabled = true
+log_path = "audit.log"
+max_size_mb = 100
+sign_events = false
+
+[security.otp]
+enabled = false
+method = "totp"
+token_ttl_secs = 30
+cache_valid_secs = 300
+gated_actions = [
+    "shell",
+    "file_write",
+    "browser_open",
+    "browser",
+    "memory_forget",
+]
+gated_domains = []
+gated_domain_categories = []
+challenge_max_attempts = 3
+
+[security.estop]
+enabled = false
+state_file = "~/.zeroclaw/estop-state.json"
+require_otp_to_resume = true
+
+[security.nevis]
+client_id = ""
+enabled = false
+instance_url = ""
+realm = "master"
+require_mfa = false
+role_mapping = []
+session_timeout_secs = 3600
+token_validation = "local"
+
+[security.webauthn]
+enabled = false
+rp_id = "localhost"
+rp_name = "ZeroClaw"
+rp_origin = "http://localhost:42617"
+
+[runtime]
+kind = "native"
+
+[runtime.docker]
+image = "alpine:3.20"
+network = "none"
+memory_limit_mb = 512
+cpu_limit = 1.0
+read_only_rootfs = true
+mount_workspace = true
+allowed_workspace_roots = []
+
+[reliability]
+provider_retries = 2
+provider_backoff_ms = 500
+fallback_providers = []
+api_keys = []
+channel_initial_backoff_secs = 2
+channel_max_backoff_secs = 60
+scheduler_poll_secs = 15
+scheduler_retries = 2
+
+[reliability.model_fallbacks]
+
+[scheduler]
+enabled = true
+max_tasks = 64
+max_concurrent = 4
+
+[agent]
+compact_context = true
+max_tool_iterations = 50
+max_history_messages = 50
+parallel_tools = true
+tool_dispatcher = "auto"
+max_context_tokens = 200000
+context_aware_tools = false
+keep_tool_context_turns = 20
+max_system_prompt_chars = 200000
+max_tool_result_chars = 2000000
+tool_call_dedup_exempt = []
+tool_filter_groups = []
+
+[agent.context_compression]
+enabled = true
+identifier_policy = "strict"
+max_passes = 50
+protect_first_n = 20
+protect_last_n = 10
+source_max_chars = 500000
+summary_max_chars = 40000
+threshold_ratio = 0.5
+timeout_secs = 3600
+tool_result_retrim_chars = 20000
+tool_result_trim_exempt = []
+
+[agent.eval]
+enabled = false
+max_retries = 3
+min_quality_score = 0.5
+
+[agent.history_pruning]
+collapse_tool_results = false
+enabled = false
+keep_recent = 10
+max_tokens = 80192
+
+[agent.thinking]
+default_level = "low"
+
+[agent.tool_receipts]
+enabled = false
+inject_system_prompt = true
+show_in_response = false
+
+[skills]
+open_skills_enabled = true
+allow_scripts = true
+prompt_injection_mode = "full"
+
+[skills.skill_creation]
+enabled = false
+max_skills = 500
+similarity_threshold = 0.85
+
+[skills.skill_improvement]
+cooldown_secs = 3600
+enabled = true
+
+[query_classification]
+enabled = false
+rules = []
+
+[heartbeat]
+enabled = true
+interval_minutes = 30
+adaptive = false
+deadman_timeout_minutes = 0
+load_session_context = false
+max_interval_minutes = 120
+max_run_history = 100
+min_interval_minutes = 5
+task_timeout_secs = 600
+two_phase = true
+
+[cron]
+enabled = true
+max_run_history = 50
+catch_up_on_startup = true
+jobs = []
+
+[channels]
+cli = true
+message_timeout_secs = 300
+ack_reactions = true
+debounce_ms = 0
+session_backend = "sqlite"
+session_persistence = true
+session_ttl_hours = 0
+show_tool_calls = false
+
+[channels.whatsapp]
+session_path = "~/.zeroclaw/whatsapp-session.db"
+allowed_numbers = ["*"]
+mention_only = false
+enabled = true
+approval_timeout_secs = 300
+dm_mention_patterns = []
+dm_policy = "allowlist"
+group_mention_patterns = []
+group_policy = "allowlist"
+mode = "business"
+self_chat_mode = false
+
+[backup]
+compress = true
+destination_dir = "state/backups"
+enabled = true
+encrypt = false
+include_dirs = ["config", "memory", "audit", "knowledge"]
+max_keep = 10
+
+[browser_delegate]
+allowed_domains = []
+blocked_domains = []
+chrome_profile_dir = ""
+cli_binary = "claude"
+enabled = false
+task_timeout_secs = 120
+
+[claude_code]
+allowed_tools = ["Read", "Edit", "Bash", "Write"]
+enabled = false
+env_passthrough = []
+max_output_bytes = 2097152
+timeout_secs = 600
+
+[claude_code_runner]
+enabled = false
+session_ttl = 3600
+tmux_prefix = "zc-claude-"
+
+[cloud_ops]
+cost_threshold_monthly_usd = 100.0
+default_cloud = "aws"
+enabled = false
+iac_tools = ["terraform"]
+supported_clouds = ["aws", "azure", "gcp"]
+well_architected_frameworks = ["aws-waf"]
+
+[codex_cli]
+enabled = false
+env_passthrough = []
+max_output_bytes = 2097152
+timeout_secs = 600
+
+[data_retention]
+categories = []
+dry_run = false
+enabled = false
+retention_days = 90
+
+[delegate]
+agentic_timeout_secs = 300
+timeout_secs = 120
+
+[escalation]
+alert_channels = []
+
+[gemini_cli]
+enabled = false
+env_passthrough = []
+max_output_bytes = 2097152
+timeout_secs = 600
+
+[google_workspace]
+allowed_operations = []
+allowed_services = []
+audit_log = false
+enabled = false
+rate_limit_per_minute = 60
+timeout_secs = 30
+
+[image_gen]
+api_key_env = "FAL_API_KEY"
+default_model = "fal-ai/flux/schnell"
+enabled = false
+
+[jira]
+allowed_actions = ["get_ticket"]
+api_token = ""
+base_url = ""
+enabled = false
+timeout_secs = 30
+
+[knowledge]
+auto_capture = false
+cross_workspace_search = false
+db_path = "/data/data/com.termux/files/home/.zeroclaw/knowledge.db"
+enabled = false
+max_nodes = 100000
+suggest_on_query = true
+
+[link_enricher]
+enabled = false
+max_links = 3
+timeout_secs = 10
+
+[linkedin]
+api_version = "202602"
+enabled = false
+
+[linkedin.content]
+github_repos = []
+github_users = []
+instructions = ""
+persona = ""
+rss_feeds = []
+topics = []
+
+[linkedin.image]
+card_accent_color = "#0A66C2"
+enabled = false
+fallback_card = true
+providers = ["stability", "imagen", "dalle", "flux"]
+temp_dir = "linkedin/images"
+
+[linkedin.image.dalle]
+api_key_env = "OPENAI_API_KEY"
+model = "dall-e-3"
+size = "1024x1024"
+
+[linkedin.image.flux]
+api_key_env = "FAL_API_KEY"
+model = "fal-ai/flux/schnell"
+
+[linkedin.image.imagen]
+api_key_env = "GOOGLE_VERTEX_API_KEY"
+project_id_env = "GOOGLE_CLOUD_PROJECT"
+region = "us-central1"
+
+[linkedin.image.stability]
+api_key_env = "STABILITY_API_KEY"
+model = "stable-diffusion-xl-1024-v1-0"
+
+[mcp]
+deferred_loading = true
+enabled = false
+servers = []
+
+[media_pipeline]
+describe_images = true
+enabled = false
+summarize_video = true
+transcribe_audio = true
+
+[microsoft365]
+auth_flow = "client_credentials"
+enabled = false
+scopes = ["https://graph.microsoft.com/.default"]
+token_cache_encrypted = true
+
+[node_transport]
+allowed_peers = []
+connection_pool_size = 4
+enabled = true
+max_request_age_secs = 300
+mutual_tls = false
+require_https = true
+shared_secret = ""
+
+[nodes]
+enabled = false
+max_nodes = 16
+
+[notion]
+api_key = ""
+database_id = ""
+enabled = false
+input_property = "Input"
+max_concurrent = 4
+poll_interval_secs = 5
+recover_stale = true
+result_property = "Result"
+status_property = "Status"
+
+[onboard_state]
+completed_sections = []
+
+[opencode_cli]
+enabled = false
+env_passthrough = []
+max_output_bytes = 2097152
+timeout_secs = 600
+
+[pacing]
+loop_detection_enabled = true
+loop_detection_max_repeats = 3
+loop_detection_window_size = 20
+loop_ignore_tools = []
+
+[pipeline]
+allowed_tools = []
+enabled = false
+max_steps = 20
+
+[plugins]
+auto_discover = false
+enabled = false
+max_plugins = 50
+plugins_dir = "/data/data/com.termux/files/home/.zeroclaw/plugins"
+
+[plugins.security]
+signature_mode = "disabled"
+trusted_publisher_keys = []
+
+[project_intel]
+default_language = "en"
+enabled = false
+include_git_data = true
+include_jira_data = false
+report_output_dir = "/data/data/com.termux/files/home/.zeroclaw/project-reports"
+risk_sensitivity = "medium"
+
+[security_ops]
+auto_triage = false
+enabled = false
+max_auto_severity = "low"
+playbooks_dir = "/data/data/com.termux/files/home/.zeroclaw/playbooks"
+report_output_dir = "/data/data/com.termux/files/home/.zeroclaw/security-reports"
+require_approval_for_actions = true
+
+[shell_tool]
+timeout_secs = 60
+
+[sop]
+approval_timeout_secs = 300
+default_execution_mode = "supervised"
+max_concurrent_total = 4
+max_finished_runs = 100
+
+[swarms]
+
+[text_browser]
+enabled = false
+timeout_secs = 30
+
+[trust]
+correction_penalty = 0.05
+decay_half_life_days = 30.0
+initial_score = 0.8
+regression_threshold = 0.5
+success_boost = 0.01
+
+[tts]
+default_format = "mp3"
+default_provider = "openai"
+default_voice = "alloy"
+enabled = false
+max_text_length = 4096
+
+[verifiable_intent]
+enabled = false
+strictness = "strict"
+
+[workspace]
+cross_workspace_search = false
+enabled = false
+isolate_audit = true
+isolate_memory = true
+isolate_secrets = true
+workspaces_dir = "/data/data/com.termux/files/home/.zeroclaw/workspaces"
+
+[memory]
+backend = "sqlite"
+auto_save = true
+hygiene_enabled = true
+archive_after_days = 7
+purge_after_days = 365
+conversation_retention_days = 30
+embedding_provider = "none"
+embedding_model = "text-embedding-3-small"
+embedding_dimensions = 1536
+vector_weight = 0.7
+keyword_weight = 0.3
+min_relevance_score = 0.4
+embedding_cache_size = 10000
+chunk_max_tokens = 512
+response_cache_enabled = false
+response_cache_ttl_minutes = 60
+response_cache_max_entries = 5000
+snapshot_enabled = false
+snapshot_on_hygiene = false
+auto_hydrate = true
+audit_enabled = false
+audit_retention_days = 30
+conflict_threshold = 0.85
+default_namespace = "default"
+fts_early_return_score = 0.85
+rerank_enabled = false
+rerank_threshold = 5
+response_cache_hot_entries = 256
+retrieval_stages = ["cache", "fts", "vector"]
+search_mode = "hybrid"
+
+[memory.qdrant]
+collection = "zeroclaw_memories"
+
+[memory.policy]
+max_entries_per_category = 0
+max_entries_per_namespace = 0
+read_only_namespaces = []
+
+[memory.policy.retention_days_by_category]
+
+[memory.postgres]
+vector_dimensions = 1536
+vector_enabled = false
+
+[storage.provider.config]
+provider = ""
+schema = "public"
+table = "memories"
+
+[tunnel]
+provider = "none"
+
+[gateway]
+port = 42617
+host = "0.0.0.0"
+require_pairing = true
+allow_public_bind = true
+paired_tokens = ["ad16f52ee65da95d8f528976214fcb3c94e4f91697a6fe8f0cad6242559d68a3"]
+pair_rate_limit_per_minute = 10
+webhook_rate_limit_per_minute = 60
+trust_forwarded_headers = false
+rate_limit_max_keys = 10000
+idempotency_ttl_secs = 300
+idempotency_max_keys = 10000
+session_persistence = true
+session_ttl_hours = 0
+
+[gateway.pairing_dashboard]
+code_length = 8
+code_ttl_secs = 3600
+lockout_secs = 300
+max_failed_attempts = 5
+max_pending_codes = 3
+
+[composio]
+enabled = true
+entity_id = "default"
+
+[secrets]
+encrypt = false
+
+[browser]
+enabled = true
+allowed_domains = []
+backend = "agent_browser"
+native_headless = true
+native_webdriver_url = "http://0.0.0.0:9515"
+
+[browser.computer_use]
+endpoint = "http://0.0.0.1:8787/v1/actions"
+timeout_ms = 15000
+allow_remote_endpoint = false
+window_allowlist = []
+
+[http_request]
+enabled = true
+allowed_domains = []
+max_response_size = 1000000
+timeout_secs = 30
+allow_private_hosts = false
+
+[multimodal]
+max_images = 4
+max_image_size_mb = 5
+allow_remote_fetch = false
+
+[web_fetch]
+enabled = true
+allowed_domains = ["*"]
+blocked_domains = []
+max_response_size = 500000
+timeout_secs = 30
+allowed_private_hosts = []
+
+[web_fetch.firecrawl]
+api_key_env = "FIRECRAWL_API_KEY"
+api_url = "https://api.firecrawl.dev/v1"
+enabled = false
+mode = "scrape"
+
+[web_search]
+enabled = true
+provider = "duckduckgo"
+max_results = 5
+timeout_secs = 15
+
+[proxy]
+enabled = false
+no_proxy = []
+scope = "zeroclaw"
+services = []
+
+[identity]
+format = "openclaw"
+
+[cost]
+enabled = false
+daily_limit_usd = 10.0
+monthly_limit_usd = 100.0
+warn_at_percent = 80
+allow_override = false
+
+[cost.prices."openai/o1-preview"]
+input = 15.0
+output = 60.0
+
+[cost.prices."google/gemini-1.5-pro"]
+input = 1.25
+output = 5.0
+
+[cost.prices."google/gemini-2.0-flash"]
+input = 0.1
+output = 0.4
+
+[cost.prices."anthropic/claude-sonnet-4-20250514"]
+input = 3.0
+output = 15.0
+
+[cost.prices."openai/gpt-4o"]
+input = 5.0
+output = 15.0
+
+[cost.prices."anthropic/claude-opus-4-20250514"]
+input = 15.0
+output = 75.0
+
+[cost.prices."anthropic/claude-3-haiku"]
+input = 0.25
+output = 1.25
+
+[cost.prices."anthropic/claude-3.5-sonnet"]
+input = 3.0
+output = 15.0
+
+[cost.prices."openai/gpt-4o-mini"]
+input = 0.15
+output = 0.6
+
+[cost.enforcement]
+mode = "warn"
+reserve_percent = 10
+
+[peripherals]
+enabled = false
+boards = []
+
+[agents]
+
+
+[hooks]
+enabled = true
+
+[hooks.builtin]
+command_logger = false
+
+[hooks.builtin.webhook_audit]
+enabled = false
+include_args = false
+max_args_bytes = 4096
+tool_patterns = []
+url = ""
+
+[hardware]
+enabled = false
+transport = "None"
+baud_rate = 115200
+workspace_datasheets = false
+
+[transcription]
+enabled = false
+api_url = "https://api.groq.com/openai/v1/audio/transcriptions"
+model = "whisper-large-v3-turbo"
+max_duration_secs = 120
+default_provider = "groq"
+transcribe_non_ptt_audio = false
+
