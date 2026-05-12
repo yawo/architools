@@ -29,4 +29,19 @@
   - Voice/Audio: Smol Audio, Voicebox, VibeVoice
   - Video: Hyperframes
   - Web Scraping: Scrapling
-- **21:52** — Added [Cloak Browser](https://github.com/CloakHQ/CloakBrowser) to Web Scraping & Automation (stealth Chromium browser that passes bot detection tests)
+- **21:52** — Added [Cloak Browser](https://github.com/CloakHQ/CloakBrowser) to Web Scraping & Automation (stealth Chromium browser that passes bot detection tests)-e 
+## 2026-05-11
+
+- **23:15** — Added [LLMLingua](tooling/llmlingua.md) to LLM APIs & Routing
+- **23:15** — Updated tooling/tools.md and index.md
+-e 
+## 2026-05-11
+
+- **23:24** — Added [lean-ctx](tooling/lean-ctx.md) to Developer Tools & CLI
+- **23:24** — Updated tooling/tools.md and index.md
+## 2026-05-12
+
+- **12:05** — Added [Floci](tooling/floci.md) to Developer Tools & CLI-e 
+## 2026-05-12
+
+- **15:58** — Added [Spec Kit](https://github.com/github/spec-kit) to AI Coding Assistants & Harnesses

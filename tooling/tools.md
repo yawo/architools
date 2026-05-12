@@ -59,6 +59,7 @@ Tools for building deterministic, repeatable AI coding workflows.
 | [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | Breakthrough Method for Agile AI-Driven Development in JavaScript projects | JavaScript |
 | [Archon](https://github.com/coleam00/Archon) | The first open-source harness builder for AI coding to make AI coding deterministic | Python |
 | [Harness Engineering](https://openai.com/index/harness-engineering/) | Blog post detailing harness engineering techniques for building reliable AI systems | Blog |
+| [Spec Kit](https://github.com/github/spec-kit) | An open source toolkit that allows you to focus on product scenarios and predictable outcomes instead of vibe coding every piece from scratch. | Various |
 | [Agent of Empires](https://github.com/njbrake/agent-of-empires) | Manage multiple Claude Code, OpenCode, and other AI coding agents via TUI or Web | Go |
 | [IBM Bob](https://bob.ibm.com/) | Enterprise AI coding agent with agentic modes, literate coding (human language), real-time code reviews, enterprise ecosystem integration | SaaS |
 
@@ -105,6 +106,7 @@ Command-line tools and utilities for developers.
 | [Television](https://github.com/alexpasmantier/television) | A very fast, portable, and hackable fuzzy finder for the terminal | Rust |
 | [CLI Printing Press](https://github.com/mvanhorn/cli-printing-press) | GOAT CLI tool for AI agents with SQLite sync, offline search, and compound insight | Go |
 | [RTK](https://github.com/rtk-ai/rtk) | CLI proxy that cuts LLM token use by 60-90% on dev commands with a single Rust binary | Rust |
+| [lean-ctx](https://github.com/yvgude/lean-ctx) | Context runtime for AI agents that reduces token waste by 60-95% via shell hook + MCP server | Rust |
 
 ---
 
@@ -133,6 +135,7 @@ Tools for managing, routing, and optimizing LLM API calls.
 | [Awesome Free LLM APIs](https://github.com/mnfst/awesome-free-llm-apis) | Curated list of permanent free LLM APIs with available API keys | Markdown |
 | [Free LLM API Resources](https://github.com/cheahjs/free-llm-api-resources) | Curated list of free LLM inference APIs for easy access | Markdown |
 | [9Router](https://github.com/decolua/9router) | Unlimited free AI coding with multi-provider LLM routing, auto-fallback, and token saving | Python |
+| [LLMLingua](https://github.com/microsoft/LLMLingua) | Prompt compression library that reduces LLM token usage by up to 20x with minimal performance loss | Python |
 
 ---
 
