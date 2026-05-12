@@ -172,6 +172,7 @@ Tools for retrieval-augmented generation and knowledge graph management.
 | [LAT.md](https://github.com/1st1/lat.md) | Agent Lattice: a knowledge graph for your codebase, written in markdown | Markdown |
 | [PageIndex](https://github.com/VectifyAI/PageIndex) | Document Index for Vectorless, Reasoning-based Retrieval-Augmented Generation | Python |
 | [LLM Wiki v2](https://gist.github.com/rohitg00/2067ab416f7bbe447c1977edaaa681e2) | Extends Karpathy's LLM Wiki pattern with memory lifecycle, confidence scoring, hybrid search, multi-agent sync | Markdown |
+| [Graphiti](https://github.com/getzep/graphiti) | Build temporal context graphs for AI agents that track how facts change over time, maintain provenance, and support hybrid retrieval | Python |
 
 ---
 
