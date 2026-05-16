@@ -63,5 +63,7 @@
 - **15:58** — Added [Spec Kit](https://github.com/github/spec-kit) to AI Coding Assistants & Harnesses
 -e 
 ## 2026-05-12
-
 - **16:32** — Added [Graphiti](https://github.com/getzep/graphiti) to RAG & Knowledge Graphs
+
+## 2026-05-16
+- **13:00** — Added new tools
