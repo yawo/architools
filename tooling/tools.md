@@ -48,8 +48,6 @@ Tools for building, running, and managing AI agents.
 | [Career Ops](https://github.com/santifer/career-ops) | AI-powered job search system with 14 skill modes, Go dashboard, PDF generation | TypeScript |
 | [Open Source Codex Symphony](https://openai.com/index/open-source-codex-orchestration-symphony/) | Open-source orchestration framework for Codex-based AI workflows | Blog |
 | [Paperasse](https://github.com/romainsimon/paperasse) | French AI agent skills specialized in bureaucratic tasks (accounting, notary) | Markdown |
-
----
 | [Statewright](https://github.com/statewright/statewright) | State machine guardrails for AI agents. | Various |
 
 ## AI Coding Assistants & Harnesses
@@ -65,8 +63,6 @@ Tools for building deterministic, repeatable AI coding workflows.
 | [Spec Kit](https://github.com/github/spec-kit) | An open source toolkit that allows you to focus on product scenarios and predictable outcomes instead of vibe coding every piece from scratch. | Various |
 | [Agent of Empires](https://github.com/njbrake/agent-of-empires) | Manage multiple Claude Code, OpenCode, and other AI coding agents via TUI or Web | Go |
 | [IBM Bob](https://bob.ibm.com/) | Enterprise AI coding agent with agentic modes, literate coding (human language), real-time code reviews, enterprise ecosystem integration | SaaS |
-
----
 | [Crush](https://github.com/charmbracelet/crush) | Glamourous agentic coding for all. Terminal-based coding assistant with multi-model and LSP support. | Go |
 | [Spec-Kit](https://github.com/github/spec-kit) | Toolkit to help you get started with Spec-Driven Development. | Various |
 
@@ -96,8 +92,6 @@ Specialized databases for AI applications and vector storage.
 |------|-------------|----------|
 | [ZVec](https://github.com/alibaba/zvec) | A lightweight, lightning-fast, in-process vector database for semantic search | Rust |
 | [HelixDB](https://github.com/HelixDB/helix-db) | An open-source graph-vector database built from scratch in Rust | Rust |
-
----
 | [TurboVec](https://github.com/RyanCodrai/turbovec) | A vector index built on TurboQuant, written in Rust with Python bindings. | Rust |
 
 ## Developer Tools & CLI
@@ -142,8 +136,6 @@ Tools for managing, routing, and optimizing LLM API calls.
 | [Free LLM API Resources](https://github.com/cheahjs/free-llm-api-resources) | Curated list of free LLM inference APIs for easy access | Markdown |
 | [9Router](https://github.com/decolua/9router) | Unlimited free AI coding with multi-provider LLM routing, auto-fallback, and token saving | Python |
 | [LLMLingua](https://github.com/microsoft/LLMLingua) | Prompt compression library that reduces LLM token usage by up to 20x with minimal performance loss | Python |
-
----
 | [GOModel](https://github.com/ENTERPILOT/GOModel) | AI gateway written in Go. Lightweight unified OpenAI-compatible API for multiple providers. | Go |
 
 ## Memory & Context Management
@@ -154,8 +146,6 @@ Tools for managing AI memory and context across sessions.
 |------|-------------|----------|
 | [Claude Mem](https://github.com/thedotmack/claude-mem) | Claude Code plugin that captures, compresses, and injects coding session context | TypeScript |
 | [WUPHF](https://github.com/nex-crm/wuphf) | Collaborative AI office that builds and maintains a shared knowledge base | Python |
-
----
 | [GBrain](https://github.com/garrytan/gbrain) | Garry's Opinionated OpenClaw/Hermes Agent Brain. Personal knowledge management and retrieval for AI agents. | Various |
 
 ## Productivity & Workflow
@@ -167,8 +157,6 @@ Tools for enhancing productivity and workflow automation.
 | [N8N Skills](https://github.com/czlonkowski/n8n-skills) | N8n skillset for Claude Code to build flawless n8n workflows | Various |
 | [Kepano Obsidian](https://github.com/kepano/kepano-obsidian) | Personal Obsidian vault template for bottom-up note-taking | Markdown |
 | [GStack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools as CEO, Designer, Eng Manager | Various |
-
----
 | [GStack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: opinionated tools serving as CEO, Designer, Eng Manager, etc. | Various |
 | [Obsidian Skills](https://github.com/kepano/obsidian-skills) | Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and the CLI. | Markdown |
 
@@ -232,8 +220,6 @@ Tools for AI-powered video generation and media creation.
 | Tool | Description | Language |
 |------|-------------|----------|
 | [Hyperframes](https://github.com/heygen-com/hyperframes) | Write HTML and render videos with a TypeScript framework built for AI agents | TypeScript |
-
----
 | [Claude Video](https://github.com/bradautomates/claude-video) | Give Claude the ability to watch any video. Downloads, extracts frames, transcribes, and analyzes. | Various |
 
 ## Web Scraping & Automation
