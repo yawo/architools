@@ -210,6 +210,7 @@ Tools for voice synthesis, audio AI, and speech processing.
 | [Smol Audio](https://github.com/Deep-unlearning/smol-audio) | Practical, Colab-friendly notebooks for fine-tuning and running audio AI models | Python |
 | [Voicebox](https://voicebox.sh/) | Voice AI platform offering advanced voice synthesis and related services | SaaS |
 | [VibeVoice](https://github.com/microsoft/VibeVoice) | Open-source voice AI toolkit for advanced frontier voice applications | Python |
+| [Dograh](https://github.com/dograh-hq/dograh) | Open source voice agent platform, self-hostable alternative to Vapi & Retell | Python/TypeScript |
 
 ---
 
