@@ -1,5 +1,21 @@
 # Log
 
+## 2026-05-16
+- **12:00** — Added [LLM From Scratch](https://github.com/angelos-p/llm-from-scratch) to LLM Training & Education
+- **12:00** — Added [Draw.io Obsidian](https://github.com/zapthedingbat/drawio-obsidian) to Obsidian Ecosystem
+- **12:00** — Added [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) to Obsidian Ecosystem
+- **12:00** — Added [Obscura](https://github.com/h4ckf0r0day/obscura) to Web Scraping & Automation
+- **12:00** — Added [DataGouv MCP](https://github.com/datagouv/datagouv-mcp) to Data & Open Data
+- **12:00** — Added [GBrain](https://github.com/garrytan/gbrain) to Memory & Context Management
+- **12:00** — Added [Crush](https://github.com/charmbracelet/crush) to AI Coding Assistants & Harnesses
+- **12:00** — Added [Spec-Kit](https://github.com/github/spec-kit) to AI Coding Assistants & Harnesses
+- **12:00** — Added [TurboVec](https://github.com/RyanCodrai/turbovec) to Databases & Vector Stores
+- **12:00** — Added [Claude Video](https://github.com/bradautomates/claude-video) to Video & Media Generation
+- **12:00** — Added [GOModel](https://github.com/ENTERPILOT/GOModel) to LLM APIs & Routing
+- **12:00** — Added [GStack](https://github.com/garrytan/gstack) to Productivity & Workflow
+- **12:00** — Added [Statewright](https://github.com/statewright/statewright) to Agent Runtimes & Frameworks
+- **12:00** — Added [Obsidian Skills](https://github.com/kepano/obsidian-skills) to Productivity & Workflow
+
 ## 2026-05-10
 
 - **15:01** — Initialized wiki structure (index, tooling category)

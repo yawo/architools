@@ -21,11 +21,13 @@ A curated collection of tools, frameworks, and infrastructure for architecture a
 - [Web Scraping & Automation](#web-scraping--automation)
 - [French Admin & Finance Skills](#french-admin--finance-skills)
 - [Developer Utilities](#developer-utilities)
+- [LLM Training & Education](#llm-training-education)
+- [Obsidian Ecosystem](#obsidian-ecosystem)
+- [Data & Open Data](#data-open-data)
 
 ---
 
 ## Agent Runtimes & Frameworks
-<<<<<<< HEAD
 
 Tools for building, running, and managing AI agents.
 
@@ -48,6 +50,7 @@ Tools for building, running, and managing AI agents.
 | [Paperasse](https://github.com/romainsimon/paperasse) | French AI agent skills specialized in bureaucratic tasks (accounting, notary) | Markdown |
 
 ---
+| [Statewright](https://github.com/statewright/statewright) | State machine guardrails for AI agents. | Various |
 
 ## AI Coding Assistants & Harnesses
 
@@ -64,6 +67,8 @@ Tools for building deterministic, repeatable AI coding workflows.
 | [IBM Bob](https://bob.ibm.com/) | Enterprise AI coding agent with agentic modes, literate coding (human language), real-time code reviews, enterprise ecosystem integration | SaaS |
 
 ---
+| [Crush](https://github.com/charmbracelet/crush) | Glamourous agentic coding for all. Terminal-based coding assistant with multi-model and LSP support. | Go |
+| [Spec-Kit](https://github.com/github/spec-kit) | Toolkit to help you get started with Spec-Driven Development. | Various |
 
 ## Diagramming & Architecture
 
@@ -93,6 +98,7 @@ Specialized databases for AI applications and vector storage.
 | [HelixDB](https://github.com/HelixDB/helix-db) | An open-source graph-vector database built from scratch in Rust | Rust |
 
 ---
+| [TurboVec](https://github.com/RyanCodrai/turbovec) | A vector index built on TurboQuant, written in Rust with Python bindings. | Rust |
 
 ## Developer Tools & CLI
 
@@ -138,6 +144,7 @@ Tools for managing, routing, and optimizing LLM API calls.
 | [LLMLingua](https://github.com/microsoft/LLMLingua) | Prompt compression library that reduces LLM token usage by up to 20x with minimal performance loss | Python |
 
 ---
+| [GOModel](https://github.com/ENTERPILOT/GOModel) | AI gateway written in Go. Lightweight unified OpenAI-compatible API for multiple providers. | Go |
 
 ## Memory & Context Management
 
@@ -149,6 +156,7 @@ Tools for managing AI memory and context across sessions.
 | [WUPHF](https://github.com/nex-crm/wuphf) | Collaborative AI office that builds and maintains a shared knowledge base | Python |
 
 ---
+| [GBrain](https://github.com/garrytan/gbrain) | Garry's Opinionated OpenClaw/Hermes Agent Brain. Personal knowledge management and retrieval for AI agents. | Various |
 
 ## Productivity & Workflow
 
@@ -161,6 +169,8 @@ Tools for enhancing productivity and workflow automation.
 | [GStack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools as CEO, Designer, Eng Manager | Various |
 
 ---
+| [GStack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: opinionated tools serving as CEO, Designer, Eng Manager, etc. | Various |
+| [Obsidian Skills](https://github.com/kepano/obsidian-skills) | Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and the CLI. | Markdown |
 
 ## RAG & Knowledge Graphs
 
@@ -224,6 +234,7 @@ Tools for AI-powered video generation and media creation.
 | [Hyperframes](https://github.com/heygen-com/hyperframes) | Write HTML and render videos with a TypeScript framework built for AI agents | TypeScript |
 
 ---
+| [Claude Video](https://github.com/bradautomates/claude-video) | Give Claude the ability to watch any video. Downloads, extracts frames, transcribes, and analyzes. | Various |
 
 ## Web Scraping & Automation
 
@@ -233,27 +244,53 @@ Tools for web scraping, crawling, and browser automation.
 |------|-------------|----------|
 | [Cloak Browser](https://github.com/CloakHQ/CloakBrowser) | Stealth Chromium browser that passes bot detection tests; drop-in Playwright replacement with source-level fingerprint patches | Various |
 | [Scrapling](https://github.com/D4Vinci/Scrapling) | Adaptive Python web scraping framework for tasks from single requests to full-scale crawls | Python |
+| [Obscura](https://github.com/h4ckf0r0day/obscura) | The headless browser for AI agents and web scraping. Lightweight Rust implementation with CDP support. | Rust |
 
----
-
-=======
-...
->>>>>>> c01ccb4 (Auto-update: 2026-07-09 - Added Leaf to Developer Utilities)
 ## French Admin & Finance Skills
-...
-## Developer Utilities
 
-Tools for terminal productivity and development workflows.
+Collections de skills IA spécialisés dans la paperasse, comptabilité, fiscalité et gestion françaises.
 
-<<<<<<< HEAD
 | Tool | Description | Language |
 |------|-------------|----------|
 | [Paperasse](https://github.com/romainsimon/paperasse) | 6 skills pour agents IA : Comptable, Contrôleur Fiscal, Commissaire aux Comptes, Fiscaliste, Notaire, Syndic | Markdown |
-=======
+
+## Developer Utilities
+
 | Tool | Description | Stars | Language |
 |------|-------------|-------|----------|
 | [Leaf](https://github.com/RivoLink/leaf) | Terminal Markdown previewer with GUI-like experience | 1.1k | Rust |
->>>>>>> c01ccb4 (Auto-update: 2026-07-09 - Added Leaf to Developer Utilities)
 
 
-*Last updated: 2026-05-10*
+
+## LLM Training & Education
+
+Tools related to llm training & education.
+
+| Tool | Description | Language |
+|------|-------------|----------|
+| [LLM From Scratch](https://github.com/angelos-p/llm-from-scratch) | Train Your Own LLM From Scratch. A hands-on workshop building a small GPT model from tokenizer to text generation. | Python |
+
+
+
+## Obsidian Ecosystem
+
+Tools related to obsidian ecosystem.
+
+| Tool | Description | Language |
+|------|-------------|----------|
+| [Draw.io Obsidian](https://github.com/zapthedingbat/drawio-obsidian) | Draw.io plugin for Obsidian.md. Enables creating and editing diagrams as SVG or .drawio files within notes. | Various |
+| [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) | A plugin to edit and view Excalidraw drawings in Obsidian. Supports embedding, linking, and advanced sketching features. | Various |
+
+
+
+## Data & Open Data
+
+Tools related to data & open data.
+
+| Tool | Description | Language |
+|------|-------------|----------|
+| [DataGouv MCP](https://github.com/datagouv/datagouv-mcp) | Official data.gouv.fr MCP server for searching, exploring, and analyzing French open datasets via AI chatbots. | Various |
+
+---
+
+*Last updated: 2026-05-16*
