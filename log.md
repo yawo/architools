@@ -1,5 +1,12 @@
 # Log
 
+## 2026-05-24
+- **11:15** — Bulk update: Added 44 tools from newtools.md across 15+ categories.
+  - New Categories: Legal & Compliance, Academic & Research, Data & OSINT, Web & App Frameworks.
+  - Renamed Category: Security, Privacy & Pentesting.
+  - Significant Tools added with detailed pages: Medusa, DeerFlow, RAGFlow, Milvus, MikeRust.
+  - Key additions: Vercel Zero, Microsoft Presidio, Google Codewiki, Warp Oz, Onyx (Danswer).
+
 ## 2026-05-16
 - **12:00** — Added [LLM From Scratch](https://github.com/angelos-p/llm-from-scratch) to LLM Training & Education
 - **12:00** — Added [Draw.io Obsidian](https://github.com/zapthedingbat/drawio-obsidian) to Obsidian Ecosystem
