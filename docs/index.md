@@ -14,22 +14,22 @@ hero:
       link: /log
 
 features:
-  - icon: 
+  - icon: 1 
     title: Searchable
     details: Built-in full-text search across all tools, descriptions, and categories.
-  - icon: 
+  - icon: 2
     title: Organized
     details: 24 categories spanning Agent Runtimes, AI Coding, RAG, Security, and more.
-  - icon: 
+  - icon: 3 
     title: Provenance
     details: Every entry links to GitHub repos, blog posts, or official documentation.
-  - icon: 
+  - icon: 4 
     title: Compounding
     details: Continuously updated by Yeda — the autonomous wiki maintainer.
-  - icon: 
+  - icon: 5
     title: Detailed Pages
     details: In-depth pages for major tools (ZeroClaw, Milvus, DeerFlow, RAGFlow, Medusa...).
-  - icon: 
+  - icon: 6
     title: Open & Free
     details: Open-source, hosted on GitHub Pages, maintained with discipline.
 ---
