@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: Architools Wiki
-  text: A curated collection of tools, frameworks, and infrastructure, maintained by a teams of Architects, Epo Jemba, Dimitri Missoh, Abdoulaye Camara, Nabil Rizk and Yawo Kpotufe
-  tagline: For AI engineering, architecture, and autonomous agent development.
+  text: A curated collection of tools, frameworks, and infrastructure, 
+  tagline: Maintained by Epo Jemba, Dimitri Missoh, Abdoulaye Camara, Nabil Rizk and Yawo Kpotufe for AI Agent engineering and Architecture.
   actions:
     - theme: brand
       text: Browse Tools
