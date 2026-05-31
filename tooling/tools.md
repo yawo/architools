@@ -38,6 +38,7 @@ Tools for academic writing, research synthesis, and scientific document generati
 | Tool | Description | Language |
 |------|-------------|----------|
 | [thesisai.io](https://www.thesisai.io/fr/) | AI platform for academic writing with accurate inline citations | SaaS |
+| [AutoScientists](https://github.com/mims-harvard/AutoScientists) | Self-organizing AI agent teams for long-running scientific experimentation | Python |
 
 ---
 
@@ -70,6 +71,8 @@ Tools for building, running, and managing AI agents.
 | [Open Source Codex Symphony](https://openai.com/index/open-source-codex-orchestration-symphony/) | Open-source orchestration framework for Codex-based AI workflows | Blog |
 | [Paperasse](https://github.com/romainsimon/paperasse) | French AI agent skills specialized in bureaucratic tasks (accounting, notary) | Markdown |
 | [Statewright](https://github.com/statewright/statewright) | State machine guardrails for AI agents. | Various |
+| [Route](https://github.com/phodal/routa) | Workspace-first multi-agent coordination platform with shared Specs, Kanban, MCP/ACP/A2A support | TypeScript |
+| [Ruflo](https://github.com/ruvnet/ruflo) | Agent orchestration platform for Claude — deploy multi-agent swarms, autonomous workflows, conversational AI | TypeScript |
 
 ## AI Coding Assistants & Harnesses
 
@@ -95,6 +98,11 @@ Tools for building deterministic, repeatable AI coding workflows.
 | [IBM Bob](https://bob.ibm.com/) | Enterprise AI coding agent with agentic modes, literate coding (human language), real-time code reviews, enterprise ecosystem integration | SaaS |
 | [Crush](https://github.com/charmbracelet/crush) | Glamourous agentic coding for all. Terminal-based coding assistant with multi-model and LSP support. | Go |
 | [Spec-Kit](https://github.com/github/spec-kit) | Toolkit to help you get started with Spec-Driven Development. | Various |
+| [Claude Code Harness](https://github.com/Chachamaru127/claude-code-harness) | Dedicated development harness with autonomous Plan→Work→Review cycle for high-quality output | Shell |
+| [code-review-skill](https://github.com/awesome-skills/code-review-skill) | Comprehensive code review skill for Claude Code covering React 19, Vue 3, Rust, TypeScript, and more | HTML |
+| [AWS Well-Architected Skills](https://github.com/aws-samples/sample-well-architected-skills-and-steering) | Reusable skills teaching AI coding agents to apply the AWS Well-Architected Framework | Python |
+| [oh-my-pi](https://github.com/can1357/oh-my-pi) | AI coding agent for the terminal with hash-anchored edits, LSP, subagents, and browser | TypeScript |
+| [OpenHuman](https://github.com/tinyhumansai/openhuman) | Personal AI superintelligence — private, simple, and extremely powerful | Rust |
 
 ## Data & OSINT
 
@@ -103,6 +111,7 @@ Tools for open-source intelligence and real-time data aggregation.
 | Tool | Description | Language |
 |------|-------------|----------|
 | [osiris](https://github.com/simplifaisoul/osiris) | Real-time OSINT dashboard and intelligence platform with flight tracking and CCTV | Various |
+| [FlowSint](https://github.com/reconurge/flowsint) | Visual, flexible graph-based investigation platform for cybersecurity analysts and investigators | TypeScript |
 
 ---
 
@@ -155,6 +164,15 @@ Command-line tools and utilities for developers.
 | [CLI Printing Press](https://github.com/mvanhorn/cli-printing-press) | GOAT CLI tool for AI agents with SQLite sync, offline search, and compound insight | Go |
 | [RTK](https://github.com/rtk-ai/rtk) | CLI proxy that cuts LLM token use by 60-90% on dev commands with a single Rust binary | Rust |
 | [lean-ctx](https://github.com/yvgude/lean-ctx) | Context runtime for AI agents that reduces token waste by 60-95% via shell hook + MCP server | Rust |
+| [rmux](https://github.com/helvesec/rmux) | Universal Rust multiplexer with typed SDK for driving any CLI or TUI app from code | Rust |
+| [iii](https://github.com/iii-hq/iii) | Compose, extend, and observe every service in real-time | Rust |
+| [Infracost](https://github.com/infracost/infracost) | Cloud cost intelligence for engineers, AI coding agents, and CI/CD — shift FinOps left | Go |
+| [Microsoft FinOps Toolkit](https://github.com/microsoft/finops-toolkit) | Tools and resources to adopt and implement FinOps capabilities across the Microsoft Cloud | PowerShell |
+| [MarkItDown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown | Python |
+| [gogcli](https://github.com/openclaw/gogcli) | Google Workspace in your terminal — CLI for Gmail, Calendar, Drive, and more | Go |
+| [wacli](https://github.com/openclaw/wacli) | WhatsApp CLI: sync, search, send messages from the terminal | Go |
+| [SlaCrawl](https://github.com/steipete/slacrawl) | CLI terminal app for Slack with SQLite backend | Go |
+| [github.gg](https://www.github.gg/) | GitHub tooling and developer utilities platform | SaaS |
 
 ---
 
@@ -195,6 +213,11 @@ Tools for managing, routing, and optimizing LLM API calls.
 | [Awesome Free LLM APIs](https://github.com/mnfst/awesome-free-llm-apis) | Curated list of permanent free LLM APIs with available API keys | Markdown |
 | [Free LLM API Resources](https://github.com/cheahjs/free-llm-api-resources) | Curated list of free LLM inference APIs for easy access | Markdown |
 | [9Router](https://github.com/decolua/9router) | Unlimited free AI coding with multi-provider LLM routing, auto-fallback, and token saving | Python |
+| [No-Cost-AI](https://github.com/zebbern/no-cost-ai) | Curated directory of 80+ free AI services for chat, image, video, voice, and APIs | Markdown |
+| [token-optimizer](https://github.com/alexgreensh/token-optimizer) | Finds and fixes ghost tokens to survive compaction and avoid context quality decay | Python |
+| [OptiLLM](https://github.com/algorithmicsuperintelligence/optillm) | Optimizing inference proxy for LLMs | Python |
+| [SkillOpt](https://github.com/microsoft/SkillOpt) | Text-space optimizer that trains reusable natural-language skills for frozen LLM agents | Python |
+| [context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents — sandboxes tool output with 98% reduction | TypeScript |
 | [LLMLingua](https://github.com/microsoft/LLMLingua) | Prompt compression library that reduces LLM token usage by up to 20x with minimal performance loss | Python |
 | [GOModel](https://github.com/ENTERPILOT/GOModel) | AI gateway written in Go. Lightweight unified OpenAI-compatible API for multiple providers. | Go |
 
@@ -209,6 +232,9 @@ Tools for managing AI memory and context across sessions.
 | [Claude Mem](https://github.com/thedotmack/claude-mem) | Claude Code plugin that captures, compresses, and injects coding session context | TypeScript |
 | [WUPHF](https://github.com/nex-crm/wuphf) | Collaborative AI office that builds and maintains a shared knowledge base | Python |
 | [GBrain](https://github.com/garrytan/gbrain) | Garry's Opinionated OpenClaw/Hermes Agent Brain. Personal knowledge management and retrieval for AI agents. | Various |
+| [Engram](https://github.com/Gentleman-Programming/engram) | Persistent memory system for AI coding agents — agent-agnostic with SQLite, MCP server, HTTP API, CLI, and TUI | Go |
+| [AgentMemory](https://github.com/rohitg00/agentmemory) | Persistent memory for AI coding agents backed by real-world benchmarks | TypeScript |
+| [SuperMemory](https://github.com/supermemoryai/supermemory) | Memory API and app that is fast, scalable — the memory engine for the AI era | TypeScript |
 
 ## Productivity & Workflow
 
@@ -236,6 +262,8 @@ Tools for retrieval-augmented generation and knowledge graph management.
 | [PageIndex](https://github.com/VectifyAI/PageIndex) | Document Index for Vectorless, Reasoning-based Retrieval-Augmented Generation | Python |
 | [LLM Wiki v2](https://gist.github.com/rohitg00/2067ab416f7bbe447c1977edaaa681e2) | Extends Karpathy's LLM Wiki pattern with memory lifecycle, confidence scoring, hybrid search, multi-agent sync | Markdown |
 | [Graphiti](https://github.com/getzep/graphiti) | Build temporal context graphs for AI agents that track how facts change over time, maintain provenance, and support hybrid retrieval | Python |
+| [Docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI — parse, extract, and structure PDFs, Office docs, and more | Python |
+| [OpenRAG](https://github.com/langflow-ai/openrag) | Comprehensive RAG platform built on Langflow, Docling, and Opensearch in a single package | Python |
 
 ---
 
@@ -249,6 +277,10 @@ AI-powered security tools, PII anonymization, and penetration testing frameworks
 | [Shannon](https://github.com/KeygraphHQ/shannon) | Autonomous white-box AI pentester for web apps and APIs | Python |
 | [Deepsec](https://github.com/vercel-labs/deepsec) | Security harness powered by coding agents to find vulnerabilities in codebases | TypeScript |
 | [Kali Pentest](https://github.com/x-glacier/kali-pentest) | Kali Linux pentesting skill for AI agents that autonomously plans and adapts attacks | Various |
+| [Claude Security Guidance](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance) | Official Anthropic Claude Code plugin providing security guidance for safe development | Python |
+| [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) | Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents | Python |
+| [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) | Instant, concurrent, secure, lightweight sandbox for AI agents | Rust |
+| [Bumblebee](https://github.com/perplexityai/bumblebee) | Read-only developer endpoint scanner for checking exposure to known software supply-chain compromises | Go |
 
 ---
 
@@ -278,6 +310,7 @@ Tools for voice synthesis, audio AI, and speech processing.
 | [Voicebox](https://voicebox.sh/) | Voice AI platform offering advanced voice synthesis and related services | SaaS |
 | [VibeVoice](https://github.com/microsoft/VibeVoice) | Open-source voice AI toolkit for advanced frontier voice applications | Python |
 | [Dograh](https://github.com/dograh-hq/dograh) | Open source voice agent platform, self-hostable alternative to Vapi & Retell | Python/TypeScript |
+| [LiveKit Agents](https://github.com/livekit/agents) | Framework for building realtime voice AI agents with audio and video support | Python |
 
 ---
 
@@ -290,6 +323,8 @@ Tools for AI-powered video generation and media creation.
 | [HeliosGen](https://github.com/SegFault42/HeliosGen) | Self-hosted generative AI platform for building image and video pipelines | TypeScript |
 | [Hyperframes](https://github.com/heygen-com/hyperframes) | Write HTML and render videos with a TypeScript framework built for AI agents | TypeScript |
 | [Claude Video](https://github.com/bradautomates/claude-video) | Give Claude the ability to watch any video. Downloads, extracts frames, transcribes, and analyzes. | Various |
+| [Sana](https://github.com/NVlabs/Sana) | Efficient high-resolution image synthesis with linear diffusion transformer | Python |
+| [Presenton](https://github.com/presenton/presenton) | Open-source AI presentation generator and API (Gamma, Beautiful AI alternative) | TypeScript |
 
 ---
 
@@ -300,6 +335,9 @@ Frameworks and platforms for building modern web applications and commerce.
 | Tool | Description | Language |
 |------|-------------|----------|
 | [Medusa](medusa.md) | Open-source, flexible commerce platform and framework for custom applications | TypeScript |
+| [Nango](https://github.com/NangoHQ/nango) | Build product integrations with AI — unified API platform for SaaS connectors | TypeScript |
+| [Skybridge](https://github.com/alpic-ai/skybridge) | Full-stack TypeScript framework for MCP Apps and ChatGPT Apps — type-safe, React-powered, platform-agnostic | TypeScript |
+| [Twenty](https://twenty.com/) | Open-source CRM — a modern, community-driven alternative to Salesforce | SaaS |
 
 ---
 
@@ -312,6 +350,11 @@ Tools for web scraping, crawling, and browser automation.
 | [Cloak Browser](https://github.com/CloakHQ/CloakBrowser) | Stealth Chromium browser that passes bot detection tests; drop-in Playwright replacement with source-level fingerprint patches | Various |
 | [Scrapling](https://github.com/D4Vinci/Scrapling) | Adaptive Python web scraping framework for tasks from single requests to full-scale crawls | Python |
 | [Obscura](https://github.com/h4ckf0r0day/obscura) | The headless browser for AI agents and web scraping. Lightweight Rust implementation with CDP support. | Rust |
+| [Smaug](https://github.com/alexknowshtml/smaug) | Archive your Twitter/X bookmarks to markdown with AI-powered analysis | JavaScript |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | Open-source LLM-friendly web crawler and scraper | Python |
+| [Telecrawl](https://github.com/openclaw/telecrawl) | Telegram for Claws — messaging integration for AI agents | Go |
+| [BirdClaw](https://github.com/steipete/birdclaw) | Stores all your tweets nicely claw-able for AI agents | TypeScript |
+| [WaCrawl](https://github.com/steipete/wacrawl) | WhatsApp archaeology with encrypted receipts — conversation archiver | Go |
 
 ## French Admin & Finance Skills
 

@@ -1,5 +1,22 @@
 # Log
 
+## 2026-05-31
+- **14:30** — Bulk update: Added 42 tools from newtools.md across existing categories.
+  - **Academic & Research**: AutoScientists
+  - **Agent Runtimes & Frameworks**: Route (multi-agent coordination), Ruflo (agent orchestration)
+  - **AI Coding Assistants & Harnesses**: Claude Code Harness, code-review-skill, AWS Well-Architected Skills, oh-my-pi, OpenHuman
+  - **Data & OSINT**: FlowSint
+  - **Developer Tools & CLI**: rmux, iii, Infracost, Microsoft FinOps Toolkit, MarkItDown, gogcli, wacli, SlaCrawl, github.gg
+  - **LLM APIs & Routing**: No-Cost-AI, token-optimizer, OptiLLM, SkillOpt, context-mode
+  - **Memory & Context Management**: Engram, AgentMemory, SuperMemory
+  - **RAG & Knowledge Graphs**: Docling, OpenRAG
+  - **Security, Privacy & Pentesting**: Claude Security Guidance, Agent Governance Toolkit, CubeSandbox, Bumblebee
+  - **Video & Media Generation**: Sana, Presenton
+  - **Voice & Audio AI**: LiveKit Agents
+  - **Web & App Frameworks**: Nango, Skybridge, Twenty
+  - **Web Scraping & Automation**: Smaug, Crawl4AI, Telecrawl, BirdClaw, WaCrawl
+  - Notable tools: Crawl4AI (67k★), MarkItDown (134k★), SuperMemory (23k★), Ruflo (57k★), Docling (61k★)
+
 ## 2026-05-24
 - **11:15** — Bulk update: Added 44 tools from newtools.md across 15+ categories.
   - New Categories: Legal & Compliance, Academic & Research, Data & OSINT, Web & App Frameworks.
