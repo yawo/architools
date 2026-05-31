@@ -1,0 +1,16 @@
+{
+  "name": "architools-wiki",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Architools Wiki — Curated tools, frameworks, and infrastructure for AI engineering",
+  "scripts": {
+    "predocs:dev": "rsync -a --delete tooling/ docs/tooling/",
+    "predocs:build": "rsync -a --delete tooling/ docs/tooling/",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.0"
+  }
+}
