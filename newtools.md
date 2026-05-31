@@ -1,44 +1,43 @@
- https://github.com/medusajs/medusa
- https://github.com/bytedance/deer-flow
- https://github.com/infiniflow/ragflow
- https://github.com/volcengine/OpenViking
- https://github.com/milvus-io/milvus
- https://github.com/lawve-ai/awesome-legal-skills
- https://github.com/anthropics/claude-for-legal
- https://github.com/anthropics/financial-services
- https://herdr.dev/ 
- https://claudoscope.com
- https://ccusage.com/
- https://github.com/SemplificaAI/MikeRust
- https://github.com/willchen96/mike
- https://github.com/rafal-fryc/mikelocal
- https://freebuff.com/
- https://github.com/colbymchenry/codegraph
- https://github.com/yichuan-w/LEANN
- https://github.com/vercel-labs/zero
- https://github.com/microsoft/presidio
- https://github.com/BoundaryML/baml
- https://github.com/ferdous-alam/GenCAD
- https://github.com/PapaDanielVi/jamshid
- https://github.com/nexu-io/html-anything
- https://github.com/SegFault42/HeliosGen?pimms_id=mitKe6Hg7sceuYTB
- https://github.com/Lum1104/Understand-Anything
- https://codewiki.google/
- https://github.com/thesysdev/openui
- https://github.com/virgiliojr94/book-to-skill
- https://github.com/onyx-dot-app/onyx
- https://github.com/MarijaStavric24/SafePrompt
- https://github.com/spencermountain/compromise
- https://github.com/iOfficeAI/AionUi
- https://github.com/iOfficeAI/OfficeCli
- https://github.com/different-ai/openwork
- https://github.com/eigent-ai/eigent
- https://www.thesisai.io/fr/
- https://github.com/jarrodwatts/claude-hud
- https://honker.dev/
- https://github.com/browserbase/skills
- https://hyper.charm.land/
- https://github.com/simplifaisoul/osiris
- https://github.com/rmyndharis/OpenWA
- https://github.com/manaflow-ai/cmux
- https://www.warp.dev/oz
+https://github.com/Chachamaru127/claude-code-harness
+https://github.com/Gentleman-Programming/engram
+https://github.com/NVlabs/Sana
+https://github.com/NangoHQ/nango
+https://github.com/TencentCloud/CubeSandbox
+https://github.com/alexgreensh/token-optimizer
+https://github.com/alexknowshtml/smaug
+https://github.com/algorithmicsuperintelligence/optillm
+https://github.com/alpic-ai/skybridge
+https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance
+https://github.com/awesome-skills/code-review-skill
+https://github.com/aws-samples/sample-well-architected-skills-and-steering
+https://github.com/can1357/oh-my-pi
+https://github.com/docling-project/docling
+https://github.com/helvesec/rmux
+https://github.com/iii-hq/iii
+https://github.com/infracost/infracost
+https://github.com/langflow-ai/openrag
+https://github.com/livekit/agents
+https://github.com/microsoft/SkillOpt
+https://github.com/microsoft/agent-governance-toolkit
+https://github.com/microsoft/finops-toolkit
+https://github.com/microsoft/markitdown
+https://github.com/mims-harvard/AutoScientists
+https://github.com/mksglu/context-mode
+https://github.com/openclaw/gogcli
+https://github.com/openclaw/telecrawl
+https://github.com/openclaw/wacli
+https://github.com/perplexityai/bumblebee
+https://github.com/phodal/routa
+https://github.com/presenton/presenton
+https://github.com/reconurge/flowsint
+https://github.com/rohitg00/agentmemory
+https://github.com/ruvnet/ruflo
+https://github.com/steipete/birdclaw
+https://github.com/steipete/slacrawl
+https://github.com/steipete/wacrawl
+https://github.com/supermemoryai/supermemory
+https://github.com/tinyhumansai/openhuman
+https://github.com/unclecode/crawl4ai
+https://github.com/zebbern/no-cost-ai
+https://twenty.com/
+https://www.github.gg/
