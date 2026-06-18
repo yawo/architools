@@ -1,5 +1,12 @@
 # Log
 
+## 2026-06-18
+- **18:00** — Bulk update: Added 70 tools from newtools.md.
+  - **New Category**: Model Context Protocol (MCP) (31 servers/tools added including official reference servers, Stripe, GitLab, Trello, ClickUp, Zendesk, and Home Assistant).
+  - **New Category**: Infrastructure & Eventing (Apache EventMesh, Apache RocketMQ added).
+  - **Significant Tools added with detailed pages**: [headroom](tooling/headroom.md), [forkd](tooling/forkd.md), [marker](tooling/marker.md), [opik](tooling/opik.md), [obsidian-second-brain](tooling/obsidian-second-brain.md), [ccglass](tooling/ccglass.md), [ast-grep](tooling/ast-grep.md), [whisper](tooling/whisper.md), [fastcontext](tooling/fastcontext.md), [eventmesh](tooling/eventmesh.md), [ha-mcp](tooling/ha-mcp.md).
+  - **Key additions**: aider, goose, Eloquent (Google), meilisearch, OpenSandbox, mattpocock/skills, Whisper, ast-grep.
+
 ## 2026-05-31
 - **14:30** — Bulk update: Added 42 tools from newtools.md across existing categories.
   - **Academic & Research**: AutoScientists

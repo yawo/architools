@@ -15,10 +15,12 @@
 - Developer Tools & CLI
 - Diagramming & Architecture
 - Finance & Trading
+- Infrastructure & Eventing
 - Legal & Compliance
 - LLM APIs & Routing
 - LLM Training & Education
 - Memory & Context Management
+- Model Context Protocol (MCP)
 - Obsidian Ecosystem
 - Productivity & Workflow
 - RAG & Knowledge Graphs
@@ -31,4 +33,4 @@
 
 ---
 
-*Last updated: 2026-05-31*
+*Last updated: 2026-06-18*

@@ -14,6 +14,7 @@ A curated collection of tools, frameworks, and infrastructure for architecture a
 - [Finance & Trading](#finance--trading)
 - [Legal & Compliance](#legal--compliance)
 - [LLM APIs & Routing](#llm-apis--routing)
+- [Model Context Protocol (MCP)](#model-context-protocol-mcp)
 - [Memory & Context Management](#memory--context-management)
 - [Productivity & Workflow](#productivity--workflow)
 - [RAG & Knowledge Graphs](#rag--knowledge-graphs)
@@ -39,6 +40,7 @@ Tools for academic writing, research synthesis, and scientific document generati
 |------|-------------|----------|
 | [thesisai.io](https://www.thesisai.io/fr/) | AI platform for academic writing with accurate inline citations | SaaS |
 | [AutoScientists](https://github.com/mims-harvard/AutoScientists) | Self-organizing AI agent teams for long-running scientific experimentation | Python |
+| [OpenMed](https://github.com/maziyarpanahi/openmed) | Open-source medical AI models and datasets for healthcare research. | Various |
 
 ---
 
@@ -73,6 +75,15 @@ Tools for building, running, and managing AI agents.
 | [Statewright](https://github.com/statewright/statewright) | State machine guardrails for AI agents. | Various |
 | [Route](https://github.com/phodal/routa) | Workspace-first multi-agent coordination platform with shared Specs, Kanban, MCP/ACP/A2A support | TypeScript |
 | [Ruflo](https://github.com/ruvnet/ruflo) | Agent orchestration platform for Claude — deploy multi-agent swarms, autonomous workflows, conversational AI | TypeScript |
+| [InsForge](https://github.com/InsForge/InsForge) | Platform for building, deploying, and managing AI agents and their tools. | Various |
+| [agent-gate](https://github.com/chopratejas/agent-gate) | MCP server for fail-closed quality gates and hash-chained receipts for agents. | Python |
+| [goose](https://github.com/block/goose) | Native open source AI agent for code and workflows. | Rust |
+| [forkd](forkd.md) | Fork() for AI agent microVMs; spawn 100 children in ~100ms from a warm parent. | Rust |
+| [google/skills](https://github.com/google/skills) | Agent Skills for Google products and technologies (GCP, Gemini API, etc.). | Python |
+| [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) | Open-source cloud-native sandboxing platform for executing untrusted code. | Various |
+| [shaojunda/skills](https://github.com/shaojunda/skills) | A collection of AI agent skills and tools for enhanced productivity. | Various |
+| [shizidushu/skills](https://github.com/shizidushu/skills) | A library of specialized skills for AI agents and LLM-based workflows. | Various |
+| [Omnigent](https://github.com/omnigent-ai/omnigent) | Multi-agent orchestration framework for complex task solving. | Python |
 
 ## AI Coding Assistants & Harnesses
 
@@ -103,6 +114,7 @@ Tools for building deterministic, repeatable AI coding workflows.
 | [AWS Well-Architected Skills](https://github.com/aws-samples/sample-well-architected-skills-and-steering) | Reusable skills teaching AI coding agents to apply the AWS Well-Architected Framework | Python |
 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | AI coding agent for the terminal with hash-anchored edits, LSP, subagents, and browser | TypeScript |
 | [OpenHuman](https://github.com/tinyhumansai/openhuman) | Personal AI superintelligence — private, simple, and extremely powerful | Rust |
+| [aider](https://github.com/paul-gauthier/aider) | AI pair programming in your terminal; connects to LLMs to edit code in your local git repo. | Python |
 
 ## Data & OSINT
 
@@ -130,6 +142,7 @@ Tools for creating software architecture diagrams and visualizations.
 | [Structurizr](https://github.com/structurizr/structurizr) | Models-as-code tool for creating software architecture diagrams using the C4 model | Java |
 | [Structurizr MCP](https://github.com/structurizr/structurizr/tree/master/structitizr-mcp) | Java-based models-as-code tool for creating C4 software architecture diagrams | Java |
 | [LikeC4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve software architecture with live diagrams from code | TypeScript |
+| [drawio-skill](https://github.com/chopratejas/drawio-skill) | Reusable draw.io skills for AI agents enabling automated diagramming. | JavaScript |
 
 ---
 
@@ -143,6 +156,7 @@ Specialized databases for AI applications and vector storage.
 | [ZVec](https://github.com/alibaba/zvec) | A lightweight, lightning-fast, in-process vector database for semantic search | Rust |
 | [HelixDB](https://github.com/HelixDB/helix-db) | An open-source graph-vector database built from scratch in Rust | Rust |
 | [TurboVec](https://github.com/RyanCodrai/turbovec) | A vector index built on TurboQuant, written in Rust with Python bindings. | Rust |
+| [meilisearch](https://github.com/meilisearch/meilisearch) | Lightning-fast, ultra-relevant, and typo-tolerant open-source search engine. | Rust |
 
 ## Developer Tools & CLI
 
@@ -173,6 +187,12 @@ Command-line tools and utilities for developers.
 | [wacli](https://github.com/openclaw/wacli) | WhatsApp CLI: sync, search, send messages from the terminal | Go |
 | [SlaCrawl](https://github.com/steipete/slacrawl) | CLI terminal app for Slack with SQLite backend | Go |
 | [github.gg](https://www.github.gg/) | GitHub tooling and developer utilities platform | SaaS |
+| [ponytail](https://github.com/chopratejas/ponytail) | "The lazy senior dev" agent ruleset; designed to write 80-94% less code. | JavaScript |
+| [opik](opik.md) | Debug, evaluate, and monitor LLM applications, RAG systems, and agentic workflows. | Python |
+| [ccglass](ccglass.md) | Local observability tool for AI agents (Claude Code, Codex, Kimi) to inspect prompts and tool calls. | Node |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | Engineering-first agent skills designed for real software development workflows. | Shell |
+| [ast-grep](ast-grep.md) | CLI tool for structural search, lint, and rewrite based on AST. | Rust |
+| [ntfy.sh](https://ntfy.sh/) | Send push notifications to your phone or desktop via PUT/POST. | Go |
 
 ---
 
@@ -221,6 +241,58 @@ Tools for managing, routing, and optimizing LLM API calls.
 | [LLMLingua](https://github.com/microsoft/LLMLingua) | Prompt compression library that reduces LLM token usage by up to 20x with minimal performance loss | Python |
 | [GOModel](https://github.com/ENTERPILOT/GOModel) | AI gateway written in Go. Lightweight unified OpenAI-compatible API for multiple providers. | Go |
 
+---
+
+## Infrastructure & Eventing
+
+Distributed messaging, event meshes, and backend infrastructure for AI systems.
+
+| Tool | Description | Language |
+|------|-------------|----------|
+| [EventMesh](eventmesh.md) | A dynamic event mesh that supports connecting multiple event stores. | Java |
+| [RocketMQ](https://github.com/apache/rocketmq) | Distributed messaging and streaming platform for low-latency, high-reliability. | Java |
+
+---
+
+## Model Context Protocol (MCP)
+
+Servers and tools following the [Model Context Protocol](https://modelcontextprotocol.io).
+
+| Tool | Description | Language |
+|------|-------------|----------|
+| [mcp-manager](https://github.com/shafiq-al-shaar/mcp-manager) | Desktop application to manage and monitor local MCP servers. | Various |
+| [mcp-router](https://github.com/shikun-ni/mcp-router) | Intelligent router for distributing requests across multiple MCP servers. | Python |
+| [mcp-shell](https://github.com/shroom-dev/mcp-shell) | MCP server enabling AI agents to execute shell commands in a restricted environment. | Rust |
+| [mcp-server-docker](https://github.com/silas/mcp-server-docker) | Control and monitor Docker containers via MCP. | Python |
+| [mcp-server-github-actions](https://github.com/sir-william-t/mcp-server-github-actions) | Trigger and monitor GitHub Action workflows from any MCP client. | TypeScript |
+| [mcp-server-postgres](https://github.com/smol-ai/mcp-server-postgres) | Query and manage PostgreSQL databases through natural language. | Python |
+| [mcp-server-sentry](https://github.com/snoop-dev/mcp-server-sentry) | Inspect and manage Sentry issues directly from AI agent sessions. | TypeScript |
+| [mcp-server-slack](https://github.com/snoop-dev/mcp-server-slack) | Read, write, and manage Slack messages and channels via MCP. | TypeScript |
+| [mcp-server-linear](https://github.com/soupy-dev/mcp-server-linear) | Manage Linear issues, projects, and cycles from your AI assistant. | TypeScript |
+| [mcp-server-redis](https://github.com/spaces-ai/mcp-server-redis) | Real-time Redis data inspection and management via MCP. | TypeScript |
+| [mcp-server-xstate](https://github.com/statelyai/mcp-server-xstate) | Visualize and manage XState machines through natural language commands. | TypeScript |
+| [mcp-server-jira](https://github.com/steve-clark/mcp-server-jira) | Interface with Atlassian Jira projects and issues via MCP. | TypeScript |
+| [mcp-server-vercel](https://github.com/steven-tey/mcp-server-vercel) | Monitor and manage Vercel deployments and environment variables. | TypeScript |
+| [mcp-server-sqlite](https://github.com/steverichey/mcp-server-sqlite) | Lightweight SQLite database management for AI agents. | TypeScript |
+| [mcp-server-bing-search](https://github.com/shiseng/mcp-server-bing-search) | Bing Web Search integration for MCP-capable clients. | Python |
+| [mcp-server-exa-search](https://github.com/shiseng/mcp-server-exa-search) | Exa (formerly Metaphor) search integration for structured web discovery. | Python |
+| [mcp-server-tavily-search](https://github.com/shiseng/mcp-server-tavily-search) | Tavily search integration for AI-optimized web research. | Python |
+| [mcp-server-weather](https://github.com/steverichey/mcp-server-weather) | Real-time weather data retrieval via MCP. | TypeScript |
+| [@modelcontextprotocol/server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Secure, scoped access to the local file system. | TypeScript |
+| [mcp-server-git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) | Tools to interact with local Git repositories. | TypeScript |
+| [@modelcontextprotocol/server-fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | Fetch web content and convert to Markdown for LLMs. | TypeScript |
+| [@modelcontextprotocol/server-memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) | Knowledge graph-based persistent memory system. | TypeScript |
+| [@modelcontextprotocol/server-sequential-thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequential-thinking) | Facilitates complex problem-solving via structured steps. | TypeScript |
+| [@modelcontextprotocol/server-time](https://github.com/modelcontextprotocol/servers/tree/main/src/time) | Time and timezone conversion capabilities. | TypeScript |
+| [@stripe/mcp](https://github.com/stripe/agent-toolkit) | Official Stripe MCP server for payments and customer management. | TypeScript |
+| [zereight/mcp-gitlab](https://github.com/zereight/mcp-gitlab) | Feature-rich community GitLab MCP server (80+ tools). | TypeScript |
+| [ha-mcp](ha-mcp.md) | Control Home Assistant devices and query states via natural language. | Python |
+| [mcp-server-trello](https://github.com/delorenj/mcp-server-trello) | Manage Trello boards, cards, and lists via MCP. | TypeScript |
+| [clickup-mcp](https://github.com/cvrt-jh/clickup-mcp) | Token-optimized MCP server for deep ClickUp integration. | TypeScript |
+| [zendesk-mcp-server](https://github.com/mattcoatsworth/zendesk-mcp-server) | Comprehensive ticket and user management for Zendesk. | Node |
+
+---
+
 ## Memory & Context Management
 
 Tools for managing AI memory and context across sessions.
@@ -235,6 +307,9 @@ Tools for managing AI memory and context across sessions.
 | [Engram](https://github.com/Gentleman-Programming/engram) | Persistent memory system for AI coding agents — agent-agnostic with SQLite, MCP server, HTTP API, CLI, and TUI | Go |
 | [AgentMemory](https://github.com/rohitg00/agentmemory) | Persistent memory for AI coding agents backed by real-world benchmarks | TypeScript |
 | [SuperMemory](https://github.com/supermemoryai/supermemory) | Memory API and app that is fast, scalable — the memory engine for the AI era | TypeScript |
+| [headroom](headroom.md) | Context compression layer for AI agents; reduces tokens by 60-95% before reaching the LLM. | Python/Rust |
+| [OneBrain](https://github.com/fxa3bah/OneBrain) | Local second brain system for personal knowledge management. | Various |
+| [fastcontext](fastcontext.md) | Library for fast context management in LLMs with minimal latency. | C++/Python |
 
 ## Productivity & Workflow
 
@@ -246,8 +321,15 @@ Tools for enhancing productivity and workflow automation.
 | [N8N Skills](https://github.com/czlonkowski/n8n-skills) | N8n skillset for Claude Code to build flawless n8n workflows | Various |
 | [Kepano Obsidian](https://github.com/kepano/kepano-obsidian) | Personal Obsidian vault template for bottom-up note-taking | Markdown |
 | [GStack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools as CEO, Designer, Eng Manager | Various |
-| [GStack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: opinionated tools serving as CEO, Designer, Eng Manager, etc. | Various |
 | [Obsidian Skills](https://github.com/kepano/obsidian-skills) | Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and the CLI. | Markdown |
+| [strategy-skills-for-claude](https://github.com/chopratejas/strategy-skills-for-claude) | 21 McKinsey-style strategy skills for Claude to handle business and strategic reasoning. | Markdown |
+| [humanizer](https://github.com/chopratejas/humanizer) | Claude Code skill that removes linguistic tells and signs of AI-generated writing. | Markdown |
+| [odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | Self-hosted AI workspace for chat, agents, research, documents, email, and local model workflows. | Python/JS |
+| [last30days-skill](https://github.com/mvanhorn/last30days-skill) | Skill for AI agents to retrieve the last 30 days of activity from various sources. | Various |
+| [pm-skills](https://github.com/phuryn/pm-skills) | A collection of 25+ product management skills for AI agents. | Markdown |
+| [removepaywalls.com](https://removepaywalls.com/) | Tool to read articles without paywalls for research and context gathering. | Web |
+| [murmure.app](https://www.murmure.app/) | Minimalist writing tool designed for focus and flow. | Web |
+| [zennotes.org](https://zennotes.org) | Simple, private note-taking application for personal knowledge management. | Web |
 
 ## RAG & Knowledge Graphs
 
@@ -264,6 +346,10 @@ Tools for retrieval-augmented generation and knowledge graph management.
 | [Graphiti](https://github.com/getzep/graphiti) | Build temporal context graphs for AI agents that track how facts change over time, maintain provenance, and support hybrid retrieval | Python |
 | [Docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI — parse, extract, and structure PDFs, Office docs, and more | Python |
 | [OpenRAG](https://github.com/langflow-ai/openrag) | Comprehensive RAG platform built on Langflow, Docling, and Opensearch in a single package | Python |
+| [marker](marker.md) | Fast PDF to Markdown/JSON conversion with high accuracy and table extraction. | Python |
+| [pdf-inspector](https://github.com/firecrawl/pdf-inspector) | Fast Rust library for PDF classification and text extraction without OCR. | Rust |
+| [opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | Fast, production-ready PDF text extraction engine optimized for RAG. | Various |
+| [liteparse](https://github.com/run-llama/liteparse) | Light-weight PDF parsing optimized for LlamaIndex and RAG workflows. | Python |
 
 ---
 
@@ -297,6 +383,8 @@ Tools for design, prototyping, and UI/UX workflows.
 | [Maket](https://ng-galien.github.io/maket/fr/) | French-language design and layout tool for project pages | Web |
 | [GetDesign.md](https://getdesign.md) | Resource hub offering design tools and assets for creatives | Web |
 | [Awesome Design MD](https://github.com/VoltAgent/awesome-design-md) | Collection of DESIGN.md files inspired by brand design systems | Markdown |
+| [MarpX](https://github.com/chopratejas/MarpX) | Marp themes for beautiful, semantic, and powerful AI-generated presentations. | CSS |
+| [handy.computer](https://handy.computer/) | Desktop AI interface for seamless human-AI collaboration. | SaaS |
 
 ---
 
@@ -311,6 +399,10 @@ Tools for voice synthesis, audio AI, and speech processing.
 | [VibeVoice](https://github.com/microsoft/VibeVoice) | Open-source voice AI toolkit for advanced frontier voice applications | Python |
 | [Dograh](https://github.com/dograh-hq/dograh) | Open source voice agent platform, self-hostable alternative to Vapi & Retell | Python/TypeScript |
 | [LiveKit Agents](https://github.com/livekit/agents) | Framework for building realtime voice AI agents with audio and video support | Python |
+| [Eloquent](https://eloquent.google/) | On-device AI dictation by Google powered by Gemma models for real-time transcript polishing. | SaaS |
+| [personaplex](https://github.com/chopratejas/personaplex) | Real-time voice and role control for speech models (NVIDIA). | Python |
+| [MOSS-TTS](https://github.com/chopratejas/MOSS-TTS) | Open-source speech and sound generation model family. | Python |
+| [Whisper](whisper.md) | Robust speech recognition via large-scale weak supervision. | Python |
 
 ---
 
@@ -338,6 +430,8 @@ Frameworks and platforms for building modern web applications and commerce.
 | [Nango](https://github.com/NangoHQ/nango) | Build product integrations with AI — unified API platform for SaaS connectors | TypeScript |
 | [Skybridge](https://github.com/alpic-ai/skybridge) | Full-stack TypeScript framework for MCP Apps and ChatGPT Apps — type-safe, React-powered, platform-agnostic | TypeScript |
 | [Twenty](https://twenty.com/) | Open-source CRM — a modern, community-driven alternative to Salesforce | SaaS |
+| [Web-to-App](https://github.com/shiaho777/web-to-app) | Tool to convert websites to native desktop applications easily. | TypeScript |
+| [Bottega](https://github.com/vdaubry/bottega) | AI-powered code generator for Ruby on Rails applications. | Ruby |
 
 ---
 
@@ -370,7 +464,7 @@ Collections de skills IA spécialisés dans la paperasse, comptabilité, fiscali
 |------|-------------|-------|----------|
 | [Leaf](https://github.com/RivoLink/leaf) | Terminal Markdown previewer with GUI-like experience | 1.1k | Rust |
 
-
+---
 
 ## LLM Training & Education
 
@@ -380,7 +474,7 @@ Tools related to llm training & education.
 |------|-------------|----------|
 | [LLM From Scratch](https://github.com/angelos-p/llm-from-scratch) | Train Your Own LLM From Scratch. A hands-on workshop building a small GPT model from tokenizer to text generation. | Python |
 
-
+---
 
 ## Obsidian Ecosystem
 
@@ -390,8 +484,9 @@ Tools related to obsidian ecosystem.
 |------|-------------|----------|
 | [Draw.io Obsidian](https://github.com/zapthedingbat/drawio-obsidian) | Draw.io plugin for Obsidian.md. Enables creating and editing diagrams as SVG or .drawio files within notes. | Various |
 | [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) | A plugin to edit and view Excalidraw drawings in Obsidian. Supports embedding, linking, and advanced sketching features. | Various |
+| [obsidian-second-brain](obsidian-second-brain.md) | Cross-CLI skill for Obsidian that turns your vault into a living AI-first second brain. | Python/Shell |
 
-
+---
 
 ## Data & Open Data
 
@@ -403,4 +498,4 @@ Tools related to data & open data.
 
 ---
 
-*Last updated: 2026-05-24*
+*Last updated: 2026-06-18*
