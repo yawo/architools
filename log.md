@@ -1,6 +1,7 @@
 # Log
 
 ## 2026-06-18
+- **22:30** — Ingested tools from 2.md: Added [AgentScope](tooling/agentscope.md) and [adk-python](tooling/adk-python.md) to Agent Runtimes & Frameworks, [agents-cli](tooling/agents-cli.md) and [Foreman](tooling/foreman.md) to AI Coding Assistants & Harnesses, [k3d](https://k3d.io/) to Developer Tools & CLI, and [blue-spec](tooling/blue-spec.md) to Security, Privacy & Pentesting.
 - **18:00** — Bulk update: Added 70 tools from newtools.md.
   - **New Category**: Model Context Protocol (MCP) (31 servers/tools added including official reference servers, Stripe, GitLab, Trello, ClickUp, Zendesk, and Home Assistant).
   - **New Category**: Infrastructure & Eventing (Apache EventMesh, Apache RocketMQ added).

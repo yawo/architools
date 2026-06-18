@@ -84,6 +84,8 @@ Tools for building, running, and managing AI agents.
 | [shaojunda/skills](https://github.com/shaojunda/skills) | A collection of AI agent skills and tools for enhanced productivity. | Various |
 | [shizidushu/skills](https://github.com/shizidushu/skills) | A library of specialized skills for AI agents and LLM-based workflows. | Various |
 | [Omnigent](https://github.com/omnigent-ai/omnigent) | Multi-agent orchestration framework for complex task solving. | Python |
+| [AgentScope](agentscope.md) | Developer-centric multi-agent framework designed for building, orchestrating, and deploying LLM-powered systems. | Python |
+| [adk-python](adk-python.md) | Code-first Python SDK for building, evaluating, and deploying AI agents with Google Cloud integration. | Python |
 
 ## AI Coding Assistants & Harnesses
 
@@ -98,6 +100,7 @@ Tools for building deterministic, repeatable AI coding workflows.
 | [claude-hud](https://github.com/jarrodwatts/claude-hud) | Real-time status display plugin for Claude Code tracking context and tools | TypeScript |
 | [codegraph](https://github.com/colbymchenry/codegraph) | Semantic knowledge graph of codebases to reduce token usage and tool calls | Various |
 | [codewiki.google](https://codewiki.google/) | Automatically generates and maintains structured documentation and architecture diagrams | SaaS |
+| [junction](https://github.com/Plaer1/junction) | VS Code chat sidebar that unifies local AI coding agents (OpenClaw, Hermes, etc.). | TypeScript |
 | [Freebuff](https://freebuff.com/) | Free coding agent with specialized subagents and ChatGPT support | TypeScript |
 | [Harness Engineering](https://openai.com/index/harness-engineering/) | Blog post detailing harness engineering techniques for building reliable AI systems | Blog |
 | [html-anything](https://github.com/nexu-io/html-anything) | Turns Markdown, CSV, or JSON into single-file HTML artifacts using agent sessions | Various |
@@ -115,6 +118,8 @@ Tools for building deterministic, repeatable AI coding workflows.
 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | AI coding agent for the terminal with hash-anchored edits, LSP, subagents, and browser | TypeScript |
 | [OpenHuman](https://github.com/tinyhumansai/openhuman) | Personal AI superintelligence — private, simple, and extremely powerful | Rust |
 | [aider](https://github.com/paul-gauthier/aider) | AI pair programming in your terminal; connects to LLMs to edit code in your local git repo. | Python |
+| [agents-cli](agents-cli.md) | Command-line tool and skills package to streamline the Agent Development Lifecycle (ADLC) on Google Cloud. | Python |
+| [Foreman](foreman.md) | Boris-style agentic orchestrator TUI that supervises headless Claude Code agents through a gated delivery pipeline. | Python |
 
 ## Data & OSINT
 
@@ -193,6 +198,9 @@ Command-line tools and utilities for developers.
 | [mattpocock/skills](https://github.com/mattpocock/skills) | Engineering-first agent skills designed for real software development workflows. | Shell |
 | [ast-grep](ast-grep.md) | CLI tool for structural search, lint, and rewrite based on AST. | Rust |
 | [ntfy.sh](https://ntfy.sh/) | Send push notifications to your phone or desktop via PUT/POST. | Go |
+| [langfuse](https://github.com/langfuse/langfuse) | Open-source LLM engineering platform for observability, evaluation, and prompt management. | TypeScript/Python |
+| [testcontainers](https://testcontainers.com/) | Library for providing throwaway docker containers for integration testing. | Java |
+| [k3d](https://k3d.io/) | Lightweight CLI wrapper to run k3s (minimal Kubernetes distribution) inside Docker containers. | Go |
 
 ---
 
@@ -290,6 +298,8 @@ Servers and tools following the [Model Context Protocol](https://modelcontextpro
 | [mcp-server-trello](https://github.com/delorenj/mcp-server-trello) | Manage Trello boards, cards, and lists via MCP. | TypeScript |
 | [clickup-mcp](https://github.com/cvrt-jh/clickup-mcp) | Token-optimized MCP server for deep ClickUp integration. | TypeScript |
 | [zendesk-mcp-server](https://github.com/mattcoatsworth/zendesk-mcp-server) | Comprehensive ticket and user management for Zendesk. | Node |
+| [local-browser-mcp](https://github.com/NolanLT/local-browser-mcp) | MCP server + Chrome extension to automate your browser using your real fingerprint. | TypeScript |
+| [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | High-performance codebase knowledge graph for AI agents with sub-ms queries. | C |
 
 ---
 
@@ -367,6 +377,7 @@ AI-powered security tools, PII anonymization, and penetration testing frameworks
 | [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) | Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents | Python |
 | [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) | Instant, concurrent, secure, lightweight sandbox for AI agents | Rust |
 | [Bumblebee](https://github.com/perplexityai/bumblebee) | Read-only developer endpoint scanner for checking exposure to known software supply-chain compromises | Go |
+| [blue-spec](blue-spec.md) | Toolkit for Security-Driven Hardening (SDH) designed to help AI agents profile systems and harden defenses. | TypeScript |
 
 ---
 
