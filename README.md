@@ -1,4 +1,5 @@
 # Architools
+Website for search https://yawo.github.io/architools/
 
 A personal knowledge base following the [Karpathy LLM Wiki](https://gist.github.com/karpathy/a4169c67dbaf01571d18) pattern — an autonomous AI wiki that accumulates, compounds, and organizes knowledge over time.
 
