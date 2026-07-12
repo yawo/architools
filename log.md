@@ -1,5 +1,37 @@
 # Log
 
+## 2026-07-12
+- **15:47** — Bulk update: Added 137 tools from newtools.md (116 GitHub repos + 21 websites) across 26 existing categories and 5 new categories.
+  - **New Categories**: Agent Skills, Computer Vision, Git & Version Control, LLM Inference & Compute, Time Series & Tabular Models.
+  - **Significant tools with detailed pages** (tooling/<name>.md): mineru, anything-llm, OpenCut, worldmonitor, OpenSpec, OpenMontage, graphrag, cognee, netbird, jj, age, supervision, timesfm, aisuite, memsearch, olmocr.
+  - **Additions by category**:
+    - Academic & Research: OpenResearch, open-science
+    - Agent Runtimes & Frameworks: AI Commander, Ornith-1, agentic-orchestrator, anything-llm, ard-spec, cc-fleet, cruxible, fabro, hermes-synapse, mesh-llm, peerd, smolfs, talon, tinyagents, zeroshot
+    - Agent Skills: ai-omni-skills, skillhealth, skillkit, skills, skills-best-practices
+    - AI Coding Assistants & Harnesses: Abralo, Code-Duo, DeepWiki, Factory AutoWiki, Factory Droid, Godcoder, MiMo Code, OpenSpec, cc-switch-cli, claude-token-efficient, cli-continues, code-review-graph, deepwiki-rs, donecheck, groundtruth, hunk, loop-engineering, loopy, openwiki, soba-agent
+    - Computer Vision: supervision
+    - Data & Open Data: Hugging Bay, dedupe, dex, smoothie, splink, zingg
+    - Data & OSINT: Agent-Reach, worldmonitor
+    - Databases & Vector Stores: convex-backend
+    - Developer Tools & CLI: Apache OptaPlanner, Fresh, abtop, awesome-tuis, claude-history, claude-pulse, ctx, mise, pokayoke, reclaim, retok, tmux-agent-state, tokscale
+    - Diagramming & Architecture: C4 model, Tech Tank, city-roads, codeflow, drawio-skill (Agents365)
+    - Git & Version Control: GitButler, git-branchless, git-machete, jj
+    - LLM APIs & Routing: Sakana Fugu, Switchyard, aisuite, muxer
+    - LLM Inference & Compute: apfel, colibri, llm-d, lmcache
+    - LLM Training & Education: awesome-evals, second-brain-ai-assistant-course
+    - Memory & Context Management: EverOS, FERNme, MemMachine, SimpleMem, atlas-memory-demo, claude-code-live-memory, cognee, memsearch, recall
+    - Model Context Protocol (MCP): anima-use-google, claude-context, descartes-mcp, gemini-search-mcp, nexusbox
+    - Productivity & Workflow: AgentMail, FUTO Notes, OfficeCLI, ai-job-search, anki, atomic-mail-agentic, rabbithole, tolaria
+    - RAG & Knowledge Graphs: Hyper-Extract, PixelRAG, Unlimited-OCR, arag-cli, commonforms, doctobert, doctr, graphrag, mineru, olmocr, qmd
+    - Security, Privacy & Pentesting: Anthropic-Cybersecurity-Skills, Proton, T3MP3ST, age, keyhole, netbird, sail-skill, skillspector, strix
+    - Time Series & Tabular Models: tabfm, timesfm
+    - UI/UX & Design Tools: astryx, motion-anything
+    - Video & Media Generation: OpenCut, OpenMontage
+    - Voice & Audio AI: meetily, pocket-tts
+    - Web Scraping & Automation: BrowserSkill, Jina AI, botasaurus
+  - **Skipped / duplicates**: odysseus, DeerFlow, LightRAG, PageIndex, AionUi (already in wiki); lib.rs/claude-history (dup of raine/claude-history); keyhole.maferland.com (dup of maferland/keyhole); v2-six-hazel.vercel.app & aiarchitools.com (dup of aitechtank.com / Tech Tank); flashtype.com (unverifiable — no accessible description).
+
+
 ## 2026-06-18
 - **22:30** — Ingested tools from 2.md: Added [AgentScope](tooling/agentscope.md) and [adk-python](tooling/adk-python.md) to Agent Runtimes & Frameworks, [agents-cli](tooling/agents-cli.md) and [Foreman](tooling/foreman.md) to AI Coding Assistants & Harnesses, [k3d](https://k3d.io/) to Developer Tools & CLI, and [blue-spec](tooling/blue-spec.md) to Security, Privacy & Pentesting.
 - **18:00** — Bulk update: Added 70 tools from newtools.md.
