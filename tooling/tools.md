@@ -107,6 +107,7 @@ Tools for building, running, and managing AI agents.
 | [mesh-llm](https://github.com/Mesh-LLM/mesh-llm) | Distributed AI/LLM for the people. Share compute privately or publicly to power your agents and chat. | Rust |
 | [anything-llm](anything-llm.md) | Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience | JavaScript |
 | [AI Commander](https://aicommander.dev) | Remote shell relay that lets Claude, Codex, ChatGPT, or any MCP/HTTP client run real shell commands on your machines over a secure relay — no exposed SSH, open ports, or VPN. | SaaS |
+| [beam_weaver](https://github.com/caudena/beam_weaver) | Elixir-native LangChain, LangGraph, and DeepAgents for traceable LLM apps: OTP workflows, tools, memory, human-in-the-loop, streaming, and WeaveScope tracing. | Elixir |
 
 ## AI Coding Assistants & Harnesses
 
@@ -161,6 +162,8 @@ Tools for building deterministic, repeatable AI coding workflows.
 | [DeepWiki](https://deepwiki.com/) | AI documentation you can talk to — up-to-date docs for every repo, powered by Devin (Think Deep Research for GitHub). | SaaS |
 | [MiMo Code](https://mimo.xiaomi.com/coder?lang=en) | Xiaomi's MiMo open-source coding models and agent playground for agentic software engineering. | SaaS |
 | [Abralo](https://abralo.com) | Runs many Claude Code agents at once in one native window — lightweight, local, multi-agent management for your own Claude. | SaaS |
+| [improve](https://github.com/shadcn/improve) | Use your most capable model to audit your codebase and write plans for cheaper models to execute. | Various |
+| [Supacode](https://github.com/supabitapp/supacode) | Native terminal coding agents command center — run 50+ worktree coding agents in parallel. | Swift |
 
 ## Data & OSINT
 
@@ -265,6 +268,7 @@ Command-line tools and utilities for developers.
 | [Apache OptaPlanner](https://kie.apache.org/components/optaplanner) | Open-source AI constraint solver for optimization at scale — vehicle routing, employee rostering, and other planning problems. | Java |
 | [Fresh](https://getfresh.dev/) | The Terminal IDE — one static binary with instant startup, broad LSP coverage, magit-style diff review, project-wide search, huge-file editing, SSH remote editing, and TypeScript plugins. | Various |
 | [mise](https://mise.jdx.dev/) | mise-en-place — a dev environment and task runner that activates tools/languages per project and replaces nvm/pyenv/asdf. | Rust |
+| [SocratiCode](https://github.com/giancarloerra/SocratiCode) | Enterprise-grade codebase intelligence with hybrid semantic search, polyglot dependency graphs, and symbol-level impact analysis — zero-setup, local & private as Plugin/Skill/Extension or MCP. | TypeScript |
 
 ## Finance & Trading
 
@@ -461,6 +465,7 @@ Tools for retrieval-augmented generation and knowledge graph management.
 | [arag-cli](https://github.com/KuaishouGameMind/arag-cli) | High-performance Agent RAG search tool. | Rust |
 | [olmocr](olmocr.md) | Toolkit for linearizing PDFs for LLM datasets/training | Python |
 | [commonforms](https://github.com/jbarrow/commonforms) | CommonForms — open models to auto-detect PDF form fields | Python |
+| [OpenKB](https://github.com/VectifyAI/OpenKB) | Open LLM Knowledge Base — an open-source knowledge base for LLM/RAG workflows. | Python |
 
 ## Security, Privacy & Pentesting
 
@@ -508,6 +513,7 @@ Tools for design, prototyping, and UI/UX workflows.
 ---
 | [astryx](https://github.com/facebook/astryx) | An open source design system that's fully customizable and agent ready | TypeScript |
 | [motion-anything](https://github.com/nexu-io/motion-anything) | ✨ The agentic motion layer — an open-source, chat-native motion engine. Describe the feeling; your AI ships the animation. | JavaScript |
+| [image-extender](https://github.com/boona13/image-extender) | Seamlessly extend any image in any direction with AI — Poisson-blended seams and a best-of-3 variant picker, powered by Gemini via OpenRouter. | TypeScript |
 
 ## Voice & Audio AI
 
@@ -556,7 +562,7 @@ Frameworks and platforms for building modern web applications and commerce.
 | [Skybridge](https://github.com/alpic-ai/skybridge) | Full-stack TypeScript framework for MCP Apps and ChatGPT Apps — type-safe, React-powered, platform-agnostic | TypeScript |
 | [Twenty](https://twenty.com/) | Open-source CRM — a modern, community-driven alternative to Salesforce | SaaS |
 | [Web-to-App](https://github.com/shiaho777/web-to-app) | Tool to convert websites to native desktop applications easily. | TypeScript |
-| [Bottega](https://github.com/vdaubry/bottega) | AI-powered code generator for Ruby on Rails applications. | Ruby |
+| [Bottega](https://github.com/vdaubry/bottega) | Coding agent orchestration for engineering teams — shipped as a spec plus a working reference implementation. | TypeScript |
 
 ---
 
@@ -644,6 +650,8 @@ Tools related to data & open data.
 | [skills-best-practices](https://github.com/mgechev/skills-best-practices) | Write professional-grade skills for agents, validate them using LLMs, and maintain a lean context window. | Python |
 | [skillkit](https://github.com/rohitg00/skillkit) | Supercharge AI coding agents with portable skills. Install, translate & share skills across Claude Code, Cursor, Codex, Copilot & 40 more | TypeScript |
 | [skills](https://github.com/emilkowalski/skills) | Skills for Design Engineers. | Various |
+| [fable-mode](https://github.com/mrtooher/fable-mode) | A Claude skill that activates Fable-style agentic behavior: explicit multi-stage planning, sub-agent delegation, and self-verification. | Markdown |
+| [launch-your-agent](https://github.com/anthropics/launch-your-agent) | Claude Code skills that take a founder from idea to a live Claude Managed Agent: interview, scope a v0, launch, grade, iterate, and schedule. | HTML |
 
 ## Computer Vision
 
@@ -659,6 +667,8 @@ Tools related to data & open data.
 | [git-machete](https://github.com/VirtusLab/git-machete) | Probably the sharpest git repository organizer & rebase/merge workflow automation tool you've ever seen | Python |
 | [jj](jj.md) | A Git-compatible VCS that is both simple and powerful | Rust |
 | [GitButler](https://gitbutler.com/) | A Git client that lets you work on multiple branches at once with virtual branches and a visual workflow. | Rust |
+| [lazygit](https://github.com/jesseduffield/lazygit) | Simple terminal UI for git commands. | Go |
+| [gh-dash (DASH)](https://github.com/dlvhdr/gh-dash) | A rich terminal UI for GitHub that doesn't break your flow. | Go |
 
 ## LLM Inference & Compute
 

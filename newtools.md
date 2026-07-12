@@ -1,0 +1,14 @@
+https://github.com/caudena/beam_weaver
+https://aicommander.dev
+https://github.com/the-open-engine/zeroshot
+https://github.com/shadcn/improve
+https://github.com/mrtooher/fable-mode
+https://github.com/giancarloerra/SocratiCode
+https://github.com/boona13/image-extender
+https://github.com/vdaubry/bottega
+https://github.com/VectifyAI/OpenKB
+https://github.com/anthropics/launch-your-agent
+https://github.com/yigitkonur/cli-continues
+https://supacode.sh/
+https://github.com/jesseduffield/lazygit
+https://www.gh-dash.dev/

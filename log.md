@@ -1,6 +1,16 @@
 # Log
 
 ## 2026-07-12
+- **16:27** — Added 10 new tools from newtools.md. (4 were already present: zeroshot, AI Commander, cli-continues, Bottega — Bottega's description was refreshed to its current repo state.)
+  - Agent Runtimes & Frameworks: beam_weaver
+  - AI Coding Assistants & Harnesses: improve, Supacode
+  - Agent Skills: fable-mode, launch-your-agent
+  - Developer Tools & CLI: SocratiCode
+  - UI/UX & Design Tools: image-extender
+  - RAG & Knowledge Graphs: OpenKB
+  - Git & Version Control: lazygit, gh-dash (DASH)
+  - Detailed pages (tooling/<name>.md): beam_weaver, SocratiCode, OpenKB, lazygit, gh-dash
+
 - **15:47** — Bulk update: Added 137 tools from newtools.md (116 GitHub repos + 21 websites) across 26 existing categories and 5 new categories.
   - **New Categories**: Agent Skills, Computer Vision, Git & Version Control, LLM Inference & Compute, Time Series & Tabular Models.
   - **Significant tools with detailed pages** (tooling/<name>.md): mineru, anything-llm, OpenCut, worldmonitor, OpenSpec, OpenMontage, graphrag, cognee, netbird, jj, age, supervision, timesfm, aisuite, memsearch, olmocr.
