@@ -1,5 +1,15 @@
 # Log
 
+## 2026-07-18
+- **12:00** — Added 6 new tools from newtools.md across 6 categories.
+  - **RAG & Knowledge Graphs**: WrenAI (open-source GenBI engine, 15.9k★)
+  - **Memory & Context Management**: LightMem (ICLR 2026 memory framework, 1k★)
+  - **Agent Runtimes & Frameworks**: cwc-long-running-agents (Anthropic harness primitives, 569★)
+  - **AI Coding Assistants & Harnesses**: Codex Plugin for Claude Code (OpenAI official, 29.2k★)
+  - **Developer Tools & CLI**: Agent Flow (agent orchestration visualizer, 1.3k★)
+  - **Model Context Protocol (MCP)**: OpenConnector (1000+ SaaS auth gateway, 2.9k★)
+  - Skipped: last30days-skill (already present)
+
 ## 2026-07-16
 - **12:00** — Bulk update: Added 26 new tools from newtools.md across 16 categories.
   - **Agent Runtimes & Frameworks**: GitAgent Protocol, clawk, Hiver, Halley, Contractor

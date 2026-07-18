@@ -113,6 +113,7 @@ Tools for building, running, and managing AI agents.
 | [Hiver](https://hiver.sh) | Replayable sandboxes for AI agents. Provides isolated environments with governed workspaces, policy-gated actions, and full end-to-end replay across every browser action, file change, network request, tool call, and approval. | TypeScript |
 | [Halley](https://github.com/A-Wattamwar/halley) | OpenTelemetry-native observability backend that records production agent runs as bit-fidelity cassettes, turning them into deterministic regression tests in CI at zero LLM cost. | Rust |
 | [Contractor](https://github.com/chrstian6/contractor) | A delegation-driven operating system for Claude Code that uses a multi-agent swarm (orchestrator, architect, builder swarm, reviewers) for disciplined, research-first development workflows. | JavaScript |
+| [cwc-long-running-agents](https://github.com/anthropics/cwc-long-running-agents) | Harness primitives for long-running Claude agents — default-FAIL contracts, fresh-context evaluators, and agent-maintained handoff hooks. From Anthropic's Code with Claude 2026. | Shell |
 
 ## AI Coding Assistants & Harnesses
 
@@ -169,6 +170,7 @@ Tools for building deterministic, repeatable AI coding workflows.
 | [Abralo](https://abralo.com) | Runs many Claude Code agents at once in one native window — lightweight, local, multi-agent management for your own Claude. | SaaS |
 | [improve](https://github.com/shadcn/improve) | Use your most capable model to audit your codebase and write plans for cheaper models to execute. | Various |
 | [Supacode](https://github.com/supabitapp/supacode) | Native terminal coding agents command center — run 50+ worktree coding agents in parallel. | Swift |
+| [Codex Plugin for Claude Code](https://github.com/openai/codex-plugin-cc) | Official OpenAI plugin to use Codex from inside Claude Code — review code, delegate tasks, run adversarial reviews, and manage background jobs. | JavaScript |
 
 ## Data & OSINT
 
@@ -277,6 +279,7 @@ Command-line tools and utilities for developers.
 | [SocratiCode](https://github.com/giancarloerra/SocratiCode) | Enterprise-grade codebase intelligence with hybrid semantic search, polyglot dependency graphs, and symbol-level impact analysis — zero-setup, local & private as Plugin/Skill/Extension or MCP. | TypeScript |
 | [Blume](https://github.com/haydenbleasel/blume) | A zero-config, AI-ready documentation generator that produces production-grade docs sites from Markdown/MDX folders, built on Astro with built-in search and LLM-friendly exports. | TypeScript |
 | [Atuin](https://atuin.sh/) | Shell history manager that syncs, searches, and backs up your command-line history with end-to-end encryption across machines. Includes built-in AI assistance for debugging. | Rust |
+| [Agent Flow](https://github.com/patoles/agent-flow) | Real-time visualization of Claude Code and Codex agent orchestration — watch agents think, branch, and coordinate as an interactive node graph. | TypeScript |
 
 ## Finance & Trading
 
@@ -386,6 +389,7 @@ Servers and tools following the [Model Context Protocol](https://modelcontextpro
 | [claude-context](https://github.com/zilliztech/claude-context) | Code search MCP for Claude Code. Make entire codebase the context for any coding agent. | TypeScript |
 | [anima-use-google](https://github.com/animaios/anima-use-google) | MCP server + browser sidecar extension that lets AI agents run Google AI Mode searches using your own logged-in browser session | JavaScript |
 | [local-swarm-mcp](https://github.com/jhonsferg/local-swarm-mcp) | An MCP server that offloads mechanical tasks to local OpenAI-compatible backends (like Ollama or llama.cpp) and provides context-management tools such as task delegation and scratch storage. | Go |
+| [OpenConnector](https://github.com/oomol-lab/open-connector) | Open-source auth gateway connecting 1,000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI — an open-source alternative to Composio. | TypeScript |
 
 ## Memory & Context Management
 
@@ -416,6 +420,7 @@ Tools for managing AI memory and context across sessions.
 | [alluvia](https://github.com/dylanp12/alluvia) | Local-first memory for AI-assisted work across tools, with provenance and human judgment. Ingests conversations from Claude Code, Cursor, ChatGPT and other tools into one local store, distills them into atomic ideas, and finds cross-tool bridges. | Python |
 | [Pseudolife-MCP](https://github.com/Pseudogiant-xr/Pseudolife-MCP) | Persistent long-term memory MCP server for Claude Code, Codex, and other MCP clients. Features associative memory bank with 8-band recency tiers, canonical-fact cortex, dream consolidation, typed knowledge graph, and web console. | Python |
 | [Scribe](https://getscribe.dev) | Cron-driven knowledge base that automatically mines your git history, Claude Code and Codex sessions, and self-sent URLs to write curated wiki articles in plain markdown. | Go |
+| [LightMem](https://github.com/zjunlp/LightMem) | [ICLR 2026] Lightweight and efficient memory management framework for LLMs and AI agents — storage, retrieval, and update with MCP server support. | Python |
 
 ## Productivity & Workflow
 
@@ -481,6 +486,7 @@ Tools for retrieval-augmented generation and knowledge graph management.
 | [OpenKB](https://github.com/VectifyAI/OpenKB) | Open LLM Knowledge Base — an open-source knowledge base for LLM/RAG workflows. | Python |
 | [Rag-Kit](https://github.com/jarvis959/Rag-Kit) | An agentic RAG system that watches a folder, auto-ingests documents with OCR and VLM support, and provides a CLI for LLM agents to perform hybrid vector/keyword searches. | Python |
 | [rag-retrieval-tools](https://github.com/aglio-lab/rag-retrieval-tools) | A comprehensive, curated directory of 200+ open-source and commercial tools for retrieval-augmented generation (RAG), covering vector databases, search frameworks, embeddings, rerankers, parsers, pipelines, and benchmarks. | Python |
+| [WrenAI](https://github.com/Canner/WrenAI) | Open-source GenBI engine for AI agents — governed text-to-SQL through an open context layer, turning natural-language questions into trusted dashboards, charts, and SQL across 22+ data sources. | Python/Rust |
 
 ## Security, Privacy & Pentesting
 
@@ -710,4 +716,4 @@ Tools related to data & open data.
 | [tabfm](https://github.com/google-research/tabfm) | TabFM (Tabular Foundation Model) — a scikit-learn compatible model for zero-shot classification and regression on tabular datasets via in-context learning. | Python |
 | [timesfm](timesfm.md) | TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | Python |
 
-*Last updated: 2026-07-16*
+*Last updated: 2026-07-18*
