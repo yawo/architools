@@ -1,5 +1,24 @@
 # Log
 
+## 2026-07-16
+- **12:00** — Bulk update: Added 26 new tools from newtools.md across 16 categories.
+  - **Agent Runtimes & Frameworks**: GitAgent Protocol, clawk, Hiver, Halley, Contractor
+  - **Agent Skills**: multi-tier-models-skill
+  - **Diagramming & Architecture**: Claude Code Flow Visualizer
+  - **Developer Tools & CLI**: Blume, Atuin
+  - **Developer Utilities**: Kode Dot
+  - **Infrastructure & Eventing**: Pushover
+  - **LLM APIs & Routing**: Plano
+  - **LLM Inference & Compute**: Modal, LiteRT
+  - **Memory & Context Management**: alluvia, Pseudolife-MCP, Scribe
+  - **Model Context Protocol (MCP)**: local-swarm-mcp
+  - **Productivity & Workflow**: Wisp AI Assistant
+  - **RAG & Knowledge Graphs**: Rag-Kit, rag-retrieval-tools
+  - **Security, Privacy & Pentesting**: Confessor, Agentmetry
+  - **UI/UX & Design Tools**: tldraw offline
+  - **Voice & Audio AI**: Olanga Desktop Agent
+  - **Web Scraping & Automation**: Harpist
+
 ## 2026-07-12
 - **16:27** — Added 10 new tools from newtools.md. (4 were already present: zeroshot, AI Commander, cli-continues, Bottega — Bottega's description was refreshed to its current repo state.)
   - Agent Runtimes & Frameworks: beam_weaver
