@@ -1,5 +1,30 @@
 # Log
 
+## 2026-08-10
+- **00:27** — Bulk update: Added 77 new tools from newtools.md (68 GitHub repos + 9 websites/models) across 21 existing categories.
+  - **Agent Runtimes & Frameworks**: qm, jcode, OpenTag, channels-sdk, all-agentic-architectures, prime-agent, OpenWorker, LifeOS, LibreChat, loopx, AgentENV, Dify, computer (Cloudflare), Paperclip
+  - **AI Coding Assistants & Harnesses**: aidermacs, Termic
+  - **Databases & Vector Stores**: pgGraph, Dolt, rainfrog, Ghost, Harlequin
+  - **Developer Tools & CLI**: tuistore, cc-dejavu, tuicr, mindwalk, posting, Netdata, beautify-github-readme, crabbox, netboot.xyz
+  - **Diagramming & Architecture**: Flint
+  - **LLM APIs & Routing**: Caveman, outlines, TOON
+  - **LLM Inference & Compute**: ODS, LocalAI, gigatoken
+  - **Memory & Context Management**: Beads, PlugMem, OptMem, rememberane, deja-vu
+  - **Model Context Protocol (MCP)**: mcp-context-forge (IBM)
+  - **Obsidian Ecosystem**: obsidian-sheet-plus
+  - **Productivity & Workflow**: bento, Harper
+  - **RAG & Knowledge Graphs**: Semantica, ontobricks, Graphify, anydoc, ContextGem, xberg, LightOnOCR-2-1B
+  - **Security, Privacy & Pentesting**: codex-security, numbat, ADR (Uber)
+  - **Voice & Audio AI**: Retrieval-based-Voice-Conversion-WebUI
+  - **Video & Media Generation**: video-use, LongCat-Video, open-edit
+  - **Web & App Frameworks**: Univer
+  - **Web Scraping & Automation**: Scrapegraph-ai, Lightpanda, pinchtab
+  - **Agent Skills**: SimpleEnglish, OpenSpace, text-to-cad, skill-recorder
+  - **Data & Open Data**: Airbyte, OpenMetadata, VisiData
+  - **Git & Version Control**: claude-code-merge-queue, Worktrunk
+  - **Infrastructure & Eventing**: cloudflared, Temporal, k8sgpt, buzz
+  - **Skipped / duplicates**: WrenAI (already present); docs/changelog URLs (code.claude.com, harlequin.sh, posting.sh, tuicr.dev, writewithharper.com, herdr.dev); cowchat.cowboy.inc (internal); firecrawl.github (malformed URL).
+
 ## 2026-07-18
 - **12:00** — Added 6 new tools from newtools.md across 6 categories.
   - **RAG & Knowledge Graphs**: WrenAI (open-source GenBI engine, 15.9k★)

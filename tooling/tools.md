@@ -114,6 +114,20 @@ Tools for building, running, and managing AI agents.
 | [Halley](https://github.com/A-Wattamwar/halley) | OpenTelemetry-native observability backend that records production agent runs as bit-fidelity cassettes, turning them into deterministic regression tests in CI at zero LLM cost. | Rust |
 | [Contractor](https://github.com/chrstian6/contractor) | A delegation-driven operating system for Claude Code that uses a multi-agent swarm (orchestrator, architect, builder swarm, reviewers) for disciplined, research-first development workflows. | JavaScript |
 | [cwc-long-running-agents](https://github.com/anthropics/cwc-long-running-agents) | Harness primitives for long-running Claude agents — default-FAIL contracts, fresh-context evaluators, and agent-maintained handoff hooks. From Anthropic's Code with Claude 2026. | Shell |
+| [qm](https://github.com/yc-software/qm) | Multiplayer agent harness for work. | TypeScript |
+| [jcode](https://github.com/1jehuang/jcode) | The most RAM efficient harness. | Rust |
+| [OpenTag](https://github.com/CopilotKit/OpenTag) | Open-source, self-hosted on-call triage assistant for Slack and Microsoft Teams — clone it, customize it, ship your own. Built on the Channels SDK. | TypeScript |
+| [channels-sdk](https://github.com/CopilotKit/channels-sdk) | Open-source SDK for bringing AI agents into chat platforms — Slack, MS Teams, Discord, Telegram — with native interactive UI. | TypeScript |
+| [all-agentic-architectures](https://github.com/FareedKhan-dev/all-agentic-architectures) | 35 production-grade agentic AI architectures (Reflexion, LATS, GraphRAG, MemGPT, Voyager, BrowserAgent…) as a Python library and runnable textbook with a 17-task benchmark leaderboard. | Jupyter Notebook |
+| [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | A self-improving RLM (recursive language-model) agent for coding workflows and long-running autonomous tasks. | TypeScript |
+| [OpenWorker](https://github.com/andrewyng/openworker) | Open-source AI coworker that lives on your desktop and delivers finished work, not just chat — BYO key, runs on your machine. | Python |
+| [LifeOS](https://github.com/danielmiessler/LifeOS) | A general hill-climbing AI harness that helps you move from Current State to Ideal State in both Life and Work. | TypeScript |
+| [LibreChat](https://github.com/danny-avila/LibreChat) | Enhanced self-hosted ChatGPT clone with Agents, MCP, Skills, multi-model switching, and secure multi-user auth. | TypeScript |
+| [loopx](https://github.com/huangruiteng/loopx) | Lightweight loop-engineering state kernel for long-running AI agent teams — durable goals, quota-aware auto-wake, executable todos, evidence logs, verifiable handoffs. | Python |
+| [AgentENV](https://github.com/kvcache-ai/AgentENV) | A distributed platform for running agent environments at scale. | Rust |
+| [Dify](https://github.com/langgenius/dify) | Build agentic workflows and RAG pipelines with rich AI model and tool support on one collaborative workspace — cloud, VPC, or self-hosted. | TypeScript |
+| [computer](https://github.com/cloudflare/computer) | Give your agent a computer. | TypeScript |
+| [Paperclip](https://github.com/paperclipai/paperclip) | The open-source app everyone uses to manage agents at work. | TypeScript |
 
 ## AI Coding Assistants & Harnesses
 
@@ -171,6 +185,8 @@ Tools for building deterministic, repeatable AI coding workflows.
 | [improve](https://github.com/shadcn/improve) | Use your most capable model to audit your codebase and write plans for cheaper models to execute. | Various |
 | [Supacode](https://github.com/supabitapp/supacode) | Native terminal coding agents command center — run 50+ worktree coding agents in parallel. | Swift |
 | [Codex Plugin for Claude Code](https://github.com/openai/codex-plugin-cc) | Official OpenAI plugin to use Codex from inside Claude Code — review code, delegate tasks, run adversarial reviews, and manage background jobs. | JavaScript |
+| [aidermacs](https://github.com/MatthewZMD/aidermacs) | AI pair programming in Emacs with Aider. | Emacs Lisp |
+| [Termic](https://termic.dev) | Run claude, codex, antigravity and more in parallel, each in its own git worktree — spawns the real CLIs in PTYs, free and open source (AGPL-3.0). | Desktop |
 
 ## Data & OSINT
 
@@ -209,6 +225,7 @@ Tools for creating software architecture diagrams and visualizations.
 | [Tech Tank](https://aitechtank.com/) | Ranked, filterable index of the architecture and dev tooling landscape, with treemap and list views. | Web |
 | [C4 model](https://c4model.com/) | The C4 model — a hierarchical set of software architecture diagrams (context, container, component, code) for visualising and documenting systems. | Web |
 | [Claude Code Flow Visualizer](https://github.com/oyekamal/claude-code-flow-visualizer) | A 100% client-side tool that parses Claude Code configurations (agents, skills, hooks, MCP servers) and renders them as an interactive flow graph for debugging and architectural review. | JavaScript |
+| [Flint](https://github.com/microsoft/flint-chart) | A visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs. | TypeScript |
 
 ## Databases & Vector Stores
 
@@ -222,6 +239,11 @@ Specialized databases for AI applications and vector storage.
 | [TurboVec](https://github.com/RyanCodrai/turbovec) | A vector index built on TurboQuant, written in Rust with Python bindings. | Rust |
 | [meilisearch](https://github.com/meilisearch/meilisearch) | Lightning-fast, ultra-relevant, and typo-tolerant open-source search engine. | Rust |
 | [convex-backend](https://github.com/get-convex/convex-backend) | The open-source reactive database for app developers | TypeScript |
+| [pgGraph](https://github.com/Evokoa/pgGraph) | Open-source graph database superpowers for your existing Postgres data. | Rust |
+| [Dolt](https://github.com/dolthub/dolt) | Git for Data — version-controlled, forkable SQL database. | Go |
+| [rainfrog](https://github.com/achristmascarl/rainfrog) | A database tool for the terminal. | Rust |
+| [Ghost](https://ghost.build) | Hosted Postgres for developers and their agents — spin up, fork, and throw away; unlimited databases, MCP ready. | SaaS |
+| [Harlequin](https://github.com/tconbeer/harlequin) | The SQL IDE for your terminal. | Python |
 
 ## Developer Tools & CLI
 
@@ -280,6 +302,15 @@ Command-line tools and utilities for developers.
 | [Blume](https://github.com/haydenbleasel/blume) | A zero-config, AI-ready documentation generator that produces production-grade docs sites from Markdown/MDX folders, built on Astro with built-in search and LLM-friendly exports. | TypeScript |
 | [Atuin](https://atuin.sh/) | Shell history manager that syncs, searches, and backs up your command-line history with end-to-end encryption across machines. Includes built-in AI assistance for debugging. | Rust |
 | [Agent Flow](https://github.com/patoles/agent-flow) | Real-time visualization of Claude Code and Codex agent orchestration — watch agents think, branch, and coordinate as an interactive node graph. | TypeScript |
+| [tuistore](https://github.com/Gheat1/tuistore) | TUI app store — browse, search, and one-key-install terminal apps, seeded from awesome-tuis. | Python |
+| [cc-dejavu](https://github.com/Michaelliv/cc-dejavu) | CLI tool to search and browse Claude Code bash command history. | TypeScript |
+| [tuicr](https://github.com/agavra/tuicr) | A code review TUI with vim keybindings. | Rust |
+| [mindwalk](https://github.com/cosmtrek/mindwalk) | A visualization tool that replays coding-agent sessions on a 3D map of your codebase. | Go |
+| [posting](https://github.com/darrenburns/posting) | The modern API client that lives in your terminal. | Python |
+| [Netdata](https://github.com/netdata/netdata) | The fastest path to AI-powered full-stack observability, even for lean teams. | Go |
+| [beautify-github-readme](https://github.com/oil-oil/beautify-github-readme) | Design clear, theme-specific GitHub README homepages with SVG titles and maintainable Markdown. | Python |
+| [crabbox](https://github.com/openclaw/crabbox) | Generic remote software testing and exec control plane — warm a box, sync the diff, run the suite on cloud, SSH hosts, or sandbox providers. | Go |
+| [netboot.xyz](https://netboot.xyz/) | A small iPXE bootloader that opens to a menu of network installers, live distros, and rescue tools fetched over the network. | iPXE |
 
 ## Finance & Trading
 
@@ -332,6 +363,9 @@ Tools for managing, routing, and optimizing LLM API calls.
 | [Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) | A Python proxy for LLM traffic that routes requests across providers, translates between the OpenAI and Anthropic APIs, and collects usage statistics. | Python |
 | [Sakana Fugu](https://sakana.ai/fugu/) | Multi-Agent System as a Model — a model interface that coordinates specialized AI agents through one OpenAI-compatible API. | SaaS |
 | [Plano](https://github.com/katanemo/plano) | An AI-native proxy and data plane for agentic apps with built-in orchestration, safety (guardrail filters), observability (OTEL traces), and smart LLM routing. Built on Envoy by its core contributors. | Rust |
+| [Caveman](https://caveman.so/) | The token-efficient stack for agent-native development — cuts AI costs by ~65% via caching, compression, and routing, with verified savings. | SaaS |
+| [outlines](https://github.com/dottxt-ai/outlines) | Structured outputs for LLMs. | Python |
+| [TOON](https://github.com/toon-format/toon) | Token-Oriented Object Notation — compact, human-readable serialization of JSON data for LLM prompts. TypeScript SDK, CLI, and benchmarks. | TypeScript |
 
 ## Infrastructure & Eventing
 
@@ -342,6 +376,10 @@ Distributed messaging, event meshes, and backend infrastructure for AI systems.
 | [EventMesh](eventmesh.md) | A dynamic event mesh that supports connecting multiple event stores. | Java |
 | [RocketMQ](https://github.com/apache/rocketmq) | Distributed messaging and streaming platform for low-latency, high-reliability. | Java |
 | [Pushover](https://pushover.net/) | Simple push notification service for Android, iPhone, iPad, and Desktop. Provides an HTTP API for developers to integrate real-time notifications into web apps, network monitors, and shell scripts. | SaaS |
+| [cloudflared](https://github.com/cloudflare/cloudflared) | Cloudflare Tunnel client — securely expose local services without opening ports. | Go |
+| [Temporal](https://github.com/temporalio/temporal) | Durable execution service — reliable workflows, activities, and long-running processes at scale. | Go |
+| [k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) | Giving Kubernetes superpowers to everyone — AI-powered diagnostics for clusters. | Go |
+| [buzz](https://github.com/block/buzz) | A hive mind communication platform. | Rust |
 
 ## Model Context Protocol (MCP)
 
@@ -381,6 +419,7 @@ Servers and tools following the [Model Context Protocol](https://modelcontextpro
 | [zendesk-mcp-server](https://github.com/mattcoatsworth/zendesk-mcp-server) | Comprehensive ticket and user management for Zendesk. | Node |
 | [local-browser-mcp](https://github.com/NolanLT/local-browser-mcp) | MCP server + Chrome extension to automate your browser using your real fingerprint. | TypeScript |
 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | High-performance codebase knowledge graph for AI agents with sub-ms queries. | C |
+| [mcp-context-forge](https://github.com/IBM/mcp-context-forge) | AI Gateway, registry, and proxy in front of MCP, A2A, REST, and gRPC APIs — unified endpoint, discovery, guardrails, and plugins. | Python |
 
 ---
 | [descartes-mcp](https://github.com/pranjalbhatia710/descartes-mcp) | Doubt, until what remains is certain. An MCP server that recursively doubts every plan decision — grounding each in real evidence or asking you — until it converges. Runs on Claude alone, no keys. Sibling of The Asker → github.com/pranjalbhatia710/the-asker | Python |
@@ -421,6 +460,11 @@ Tools for managing AI memory and context across sessions.
 | [Pseudolife-MCP](https://github.com/Pseudogiant-xr/Pseudolife-MCP) | Persistent long-term memory MCP server for Claude Code, Codex, and other MCP clients. Features associative memory bank with 8-band recency tiers, canonical-fact cortex, dream consolidation, typed knowledge graph, and web console. | Python |
 | [Scribe](https://getscribe.dev) | Cron-driven knowledge base that automatically mines your git history, Claude Code and Codex sessions, and self-sent URLs to write curated wiki articles in plain markdown. | Go |
 | [LightMem](https://github.com/zjunlp/LightMem) | [ICLR 2026] Lightweight and efficient memory management framework for LLMs and AI agents — storage, retrieval, and update with MCP server support. | Python |
+| [Beads](https://github.com/gastownhall/beads) | Distributed graph issue tracker for AI agents, powered by Dolt — persistent, structured memory replacing messy markdown plans for long-horizon tasks. | Go |
+| [PlugMem](https://github.com/TIMAN-group/PlugMem) | [ICML 2026] Plug-and-play long-term memory for LLM agents. | Python |
+| [OptMem](https://github.com/VictorTaelin/OptMem) | Permanent memory for AI agents — a 426-token prompt and a script, plug and play. | Python |
+| [remembrane](https://github.com/satyasairay/remembrane) | Local-first memory for AI agents — one SQLite file, zero deps; recency-aware exact recall, conflict detection, time-travel journal, MCP server. | Python |
+| [deja-vu](https://github.com/vshulcz/deja-vu) | Indexes the sessions your coding agents already wrote to disk and recalls them automatically at session start across seventeen harnesses — no LLM, no embeddings, one zero-dep binary. | Go |
 
 ## Productivity & Workflow
 
@@ -450,6 +494,8 @@ Tools for enhancing productivity and workflow automation.
 | [AgentMail](https://www.agentmail.to/) | Email Inbox API for AI agents — create, send, receive, and search messages via REST API for autonomous workflows. | SaaS |
 | [FUTO Notes](https://notes.futo.tech) | Private, local-first notes for every device — a notes app focused on user ownership and offline use. | SaaS |
 | [Wisp AI Assistant](https://github.com/SunnyLich/Wisp-AI-Assistant) | A hotkey-driven AI overlay for your desktop. Press a key, pick an intent, and Wisp reads the right context, then streams an answer without making you leave what you're doing. Local-first, voice in/out, bring your own model provider. | Python |
+| [bento](https://bento.page/) | The office suite that fits in a file — local-first, AI-native slides with animation, video, live charts, and web-grade design in a single self-contained HTML file. | HTML |
+| [Harper](https://github.com/automattic/harper) | Offline, privacy-first grammar checker — fast, open-source, Rust-powered. | Rust |
 
 ## RAG & Knowledge Graphs
 
@@ -487,6 +533,13 @@ Tools for retrieval-augmented generation and knowledge graph management.
 | [Rag-Kit](https://github.com/jarvis959/Rag-Kit) | An agentic RAG system that watches a folder, auto-ingests documents with OCR and VLM support, and provides a CLI for LLM agents to perform hybrid vector/keyword searches. | Python |
 | [rag-retrieval-tools](https://github.com/aglio-lab/rag-retrieval-tools) | A comprehensive, curated directory of 200+ open-source and commercial tools for retrieval-augmented generation (RAG), covering vector databases, search frameworks, embeddings, rerankers, parsers, pipelines, and benchmarks. | Python |
 | [WrenAI](https://github.com/Canner/WrenAI) | Open-source GenBI engine for AI agents — governed text-to-SQL through an open context layer, turning natural-language questions into trusted dashboards, charts, and SQL across 22+ data sources. | Python/Rust |
+| [Semantica](https://github.com/semantica-agi/semantica) | Graph-native infrastructure for context and accountable AI systems — ingest enterprise data, build a context/knowledge graph, and run graph analytics and causal reasoning with full decision provenance. | Python |
+| [ontobricks](https://github.com/databrickslabs/ontobricks) | Transforms Databricks Unity Catalog tables into a materialized knowledge graph with ontology and reasoning, exposed as MCP tools. | Python |
+| [Graphify](https://github.com/Graphify-Labs/graphify) | Turn any codebase (docs, SQL schemas, configs, PDFs) into a queryable knowledge graph; /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI. | Python |
+| [anydoc](https://github.com/firecrawl/anydoc) | Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown — Rust core with Node.js and Python bindings. | Rust |
+| [ContextGem](https://github.com/shcherbak-ai/contextgem) | Effortless LLM extraction from documents. | Python |
+| [xberg](https://github.com/xberg-io/xberg) | Polyglot document intelligence framework with a Rust core — extract text, metadata, images, and structured data from 101 formats plus code intelligence for 371 languages, with 15 language bindings, CLI, REST API, and MCP server. | Rust |
+| [LightOnOCR-2-1B](https://huggingface.co/lightonai/LightOnOCR-2-1B) | Open OCR foundation model (2.1B) for document understanding and conversion. | Model |
 
 ## Security, Privacy & Pentesting
 
@@ -516,6 +569,9 @@ AI-powered security tools, PII anonymization, and penetration testing frameworks
 | [Proton](https://proton.me/) | Privacy-by-default suite (email, VPN, calendar, drive) used by 100M+ people to stay private and secure online. | SaaS |
 | [Confessor](https://github.com/ninjahawk/Confessor) | See what your AI coding agent actually did on your computer. 100% local: every file it opened, every secret that entered its context, every sensitive-read-then-network-call. Zero dependencies, zero network calls. | TypeScript |
 | [Agentmetry](https://github.com/blitzcrieg1/agentmetry) | A local-first SIEM flight recorder for AI coding agents that tags tool calls with MITRE ATT&CK, detects multi-step behavioral sequences, and provides DLP capabilities. | Python |
+| [codex-security](https://github.com/openai/codex-security) | OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. | TypeScript |
+| [numbat](https://github.com/perplexityai/numbat) | Visibility into AI agent activity on endpoints — on-device detection, optional pre-action blocking, and forensic reconstruction. | Go |
+| [ADR](https://github.com/uber/ADR) | Secures enterprise AI agents through observability, security benchmarking, and threat detection; deployed at Uber. | Python |
 
 ## UI/UX & Design Tools
 
@@ -559,6 +615,7 @@ Tools for voice synthesis, audio AI, and speech processing.
 | [meetily](https://github.com/Zackriya-Solutions/meetily) | Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes | Rust |
 | [pocket-tts](https://github.com/kyutai-labs/pocket-tts) | A TTS that fits in your CPU (and pocket) | Python |
 | [Olanga Desktop Agent](https://github.com/firestar3/Olanga-Desktop-Agent) | A hands-free desktop AI voice assistant for Windows that uses offline wake-word detection and Gemini for multimodal vision and natural speech. | JavaScript |
+| [Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | Easily train a good voice conversion model with voice data <= 10 mins. | Python |
 
 ## Video & Media Generation
 
@@ -575,6 +632,9 @@ Tools for AI-powered video generation and media creation.
 ---
 | [OpenCut](OpenCut.md) | The open-source CapCut alternative | TypeScript |
 | [OpenMontage](OpenMontage.md) | World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio. | Python |
+| [video-use](https://github.com/browser-use/video-use) | Edit videos with coding agents. | Python |
+| [LongCat-Video](https://github.com/meituan-longcat/LongCat-Video) | Long video generation framework from Meituan. | Python |
+| [open-edit](https://github.com/veedstudio/open-edit) | The video editor you own, not rent — edit clips from your coding agent (Claude Code, Codex, Gemini); e.g. burn in stylized subtitles. | TypeScript |
 
 ## Web & App Frameworks
 
@@ -588,6 +648,7 @@ Frameworks and platforms for building modern web applications and commerce.
 | [Twenty](https://twenty.com/) | Open-source CRM — a modern, community-driven alternative to Salesforce | SaaS |
 | [Web-to-App](https://github.com/shiaho777/web-to-app) | Tool to convert websites to native desktop applications easily. | TypeScript |
 | [Bottega](https://github.com/vdaubry/bottega) | Coding agent orchestration for engineering teams — shipped as a spec plus a working reference implementation. | TypeScript |
+| [Univer](https://github.com/dream-num/univer) | Full-stack framework for creating and editing spreadsheets, word processors, and presentations on both web and server. | TypeScript |
 
 ---
 
@@ -609,6 +670,9 @@ Tools for web scraping, crawling, and browser automation.
 | [botasaurus](https://github.com/omkarcloud/botasaurus) | The All in One Framework to Build Undefeatable Scrapers | Python |
 | [Jina AI](https://api.jina.ai/scalar#description/introduction) | Jina Search Foundation API — Reader/Grounding endpoints that fetch and convert any URL into clean, LLM-ready markdown. | SaaS |
 | [Harpist](https://harpist.site) | Records website traffic in Chrome and turns it into agent-usable API documentation, replayable authenticated requests, and oRPC/OpenAPI artifacts. The recorder, bridge, generated contracts, and credentials stay on your machine. | TypeScript |
+| [Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | Python scraper based on AI. | Python |
+| [Lightpanda](https://github.com/lightpanda-io/browser) | The headless browser designed for AI and automation. | Zig |
+| [pinchtab](https://github.com/pinchtab/pinchtab) | High-performance browser automation bridge and multi-instance orchestrator with stealth injection and a real-time dashboard. | Go |
 
 ## French Admin & Finance Skills
 
@@ -648,6 +712,7 @@ Tools related to obsidian ecosystem.
 | [Draw.io Obsidian](https://github.com/zapthedingbat/drawio-obsidian) | Draw.io plugin for Obsidian.md. Enables creating and editing diagrams as SVG or .drawio files within notes. | Various |
 | [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) | A plugin to edit and view Excalidraw drawings in Obsidian. Supports embedding, linking, and advanced sketching features. | Various |
 | [obsidian-second-brain](obsidian-second-brain.md) | Cross-CLI skill for Obsidian that turns your vault into a living AI-first second brain. | Python/Shell |
+| [obsidian-sheet-plus](https://github.com/ljcoder2015/obsidian-sheet-plus) | Spreadsheet solutions inside Obsidian. | TypeScript |
 
 ---
 
@@ -667,6 +732,9 @@ Tools related to data & open data.
 | [smoothie](https://github.com/4tyone/smoothie) | Smoothie - a multimodal data compiler. Compile scattered data into a grounded, queryable bytecode (bc.v1) served by the SVM. | Rust |
 | [dex](https://github.com/exmergo/dex) | Dex is the agent-native analytics engineering toolkit. Point it at your warehouse and your dbt project. It learns the landscape, authors your transformations, and tells you exactly what to fix when the schema drifts. Built for analytics engineers and data engineers who want more out of their coding agent. | Python |
 | [Hugging Bay](https://huggingbay.xyz/) | Verified open-source AI artifact discovery with provenance, trust signals, and selective hosted mirrors. | SaaS |
+| [Airbyte](https://github.com/airbytehq/airbyte) | Open-source data movement for ELT pipelines and AI agents — from APIs, databases & files to warehouses, lakes, and AI applications. | Python |
+| [OpenMetadata](https://github.com/open-metadata/OpenMetadata) | The open context layer for data and AI — a platform for building trusted data context and business semantics for humans, AI assistants, and agents. | TypeScript |
+| [VisiData](https://www.visidata.org/) | Interactive multitool for tabular data — combines spreadsheet clarity, terminal efficiency, and Python power to handle millions of rows. | Python |
 
 ## Agent Skills
 
@@ -680,6 +748,10 @@ Tools related to data & open data.
 | [fable-mode](https://github.com/mrtooher/fable-mode) | A Claude skill that activates Fable-style agentic behavior: explicit multi-stage planning, sub-agent delegation, and self-verification. | Markdown |
 | [launch-your-agent](https://github.com/anthropics/launch-your-agent) | Claude Code skills that take a founder from idea to a live Claude Managed Agent: interview, scope a v0, launch, grade, iterate, and schedule. | HTML |
 | [multi-tier-models-skill](https://github.com/upasana1105/claude-code-skills/blob/main/multi-tier-models%2FSKILL.md) | A Claude Code skill implementing cost-optimized hierarchical model usage, routing tasks between different model tiers based on complexity. | Markdown |
+| [SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) | Agent skill that makes LLMs write documentation in ASD-STE100 Simplified Technical English. | Python |
+| [OpenSpace](https://github.com/HKUDS/OpenSpace) | The Skill Management Layer for AI Agents. | Python |
+| [text-to-cad](https://github.com/earthtojake/text-to-cad) | A library of agent skills for CAD, CAE, and CAM. | JavaScript |
+| [skill-recorder](https://github.com/microsoft/skill-recorder) | Desktop app that records your on-screen work session and reconstructs it as intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Copilot / Copilot Studio. | TypeScript |
 
 ## Computer Vision
 
@@ -697,6 +769,8 @@ Tools related to data & open data.
 | [GitButler](https://gitbutler.com/) | A Git client that lets you work on multiple branches at once with virtual branches and a visual workflow. | Rust |
 | [lazygit](https://github.com/jesseduffield/lazygit) | Simple terminal UI for git commands. | Go |
 | [gh-dash (DASH)](https://github.com/dlvhdr/gh-dash) | A rich terminal UI for GitHub that doesn't break your flow. | Go |
+| [claude-code-merge-queue](https://github.com/funador/claude-code-merge-queue) | The local merge queue for parallel Claude Code agents. | TypeScript |
+| [Worktrunk](https://worktrunk.dev/) | Git worktree management for parallel AI agent workflows — switch, list, merge, remove with hooks, LLM commit messages, and PR integration. | Rust |
 
 ## LLM Inference & Compute
 
@@ -708,6 +782,9 @@ Tools related to data & open data.
 | [apfel](https://apfel.franzai.com/) | Unlocks Apple's on-device language model on macOS with one brew install — no downloads, API keys, or config; the fastest path to local AI. | Various |
 | [Modal](https://modal.com/) | High-performance AI infrastructure platform for running inference, training, batch processing, and sandboxes with sub-second cold starts and instant autoscaling (0 to 1000+ GPUs). | SaaS |
 | [LiteRT](https://github.com/google-ai-edge/LiteRT) | Google's on-device runtime for high-performance ML and GenAI deployment on edge platforms, successor to TensorFlow Lite. Supports GPU/NPU acceleration across Android, iOS, Linux, macOS, Windows, and Web. | C++ |
+| [ODS](https://github.com/Osmantic/ODS) | Turn your PC, Mac, or Linux box into an AI server — LLM inference, chat UI, voice, agents, workflows, RAG, and image generation. | Python |
+| [LocalAI](https://github.com/mudler/LocalAI) | The open-source AI engine — run any model (LLMs, vision, voice, image, video) on any hardware, no GPU required. | Go |
+| [gigatoken](https://github.com/marcelroed/gigatoken) | Language model tokenization at GB/s. | Rust |
 
 ## Time Series & Tabular Models
 
@@ -716,4 +793,4 @@ Tools related to data & open data.
 | [tabfm](https://github.com/google-research/tabfm) | TabFM (Tabular Foundation Model) — a scikit-learn compatible model for zero-shot classification and regression on tabular datasets via in-context learning. | Python |
 | [timesfm](timesfm.md) | TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | Python |
 
-*Last updated: 2026-07-18*
+*Last updated: 2026-08-10*
