@@ -133,6 +133,12 @@ Tools for building, running, and managing AI agents.
 | [teamai-cli](https://github.com/Tencent/teamai-cli) | CLI for making every team AI-native with collaborative agent workflows | TypeScript |
 | [OpenMausBot](https://github.com/milind-soni/OpenMausBot) | Open-source Grok Bot alternative with a virtual machine bots can use | TypeScript |
 | [rakazo](https://github.com/elie222/rakazo) | Open-source Grok Bot alternative — choose your own model and sandbox | TypeScript |
+| [helix-foundry](https://github.com/HelixDB/helix-foundry) | Local-first data workspace built on HelixDB and DuckDB — connect your tools, get a connected ontology | TypeScript |
+| [nao](https://github.com/getnao/nao) | Open-source analytics agent — create context with CLI, deploy chat interface for everyone | Python |
+| [laya](https://github.com/NandhaKishorM/laya) | Non-autoregressive System 1 decision engine — typed choice, score and yes/no decisions in a single forward pass, 100+ languages | Python |
+| [openrig](https://github.com/mvschwarz/openrig) | Build your own network of agents from Claude Code, Codex and Pi — persistent teams with roles, shared context and owned work | TypeScript |
+| [Octop](https://github.com/TencentCloud/Octop) | Self-hosted AI assistant — multi-user, multi-agent with expert library, connectors, and ACP integration | Python |
+| [OpenIntelligentUI](https://github.com/CopilotKit/OpenIntelligentUI) | Open-Source Generative UI Framework — answers you can interact with (3D, charts, tools, maps) | TypeScript |
 
 ## AI Coding Assistants & Harnesses
 
@@ -255,6 +261,8 @@ Specialized databases for AI applications and vector storage.
 | [Ghost](https://ghost.build) | Hosted Postgres for developers and their agents — spin up, fork, and throw away; unlimited databases, MCP ready. | SaaS |
 | [Harlequin](https://github.com/tconbeer/harlequin) | The SQL IDE for your terminal. | Python |
 | [pgbot](https://github.com/pgrundev/pgbot) | Postgres intelligence for AI agents and apps | Go |
+| [pg-jev](https://github.com/realZachi/pg-jev) | Ask your Postgres tables questions in plain language — PostgreSQL extension powered by TypeSafe's Jev | Rust |
+| [GraphJin](https://github.com/dosco/graphjin) | One governed graph for AI agents — GraphQL + MCP over your databases, files, APIs, and code | Go |
 
 ## Developer Tools & CLI
 
@@ -326,6 +334,9 @@ Command-line tools and utilities for developers.
 | [terminal-code](https://github.com/zenbu-labs/terminal-code) | VS Code in the terminal | TypeScript |
 | [terminal-browser](https://github.com/zenbu-labs/terminal-browser) | A web browser inside your terminal | Rust |
 | [GitReverse](https://www.gitreverse.com/) | Reverse-engineers a GitHub repo or website into a prompt you can build from | SaaS |
+| [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) | Computer use for ~$0.0002/step: OCR the screen, classify next action with TypeSafe, click. macOS. | Python |
+| [e2e](https://github.com/tester-army/e2e) | Next generation e2e testing framework for web and mobile apps — describe a goal in natural language, agent drives the app | TypeScript |
+| [waza](https://github.com/microsoft/waza) | CLI/Framework for Agent Skills — create, test, measure and improve skill quality and effectiveness | Go |
 
 ## Finance & Trading
 
@@ -450,6 +461,7 @@ Servers and tools following the [Model Context Protocol](https://modelcontextpro
 | [local-swarm-mcp](https://github.com/jhonsferg/local-swarm-mcp) | An MCP server that offloads mechanical tasks to local OpenAI-compatible backends (like Ollama or llama.cpp) and provides context-management tools such as task delegation and scratch storage. | Go |
 | [OpenConnector](https://github.com/oomol-lab/open-connector) | Open-source auth gateway connecting 1,000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI — an open-source alternative to Composio. | TypeScript |
 | [minirag-mcp](https://github.com/sfrangulov/minirag-mcp) | Local-first RAG MCP server with hybrid search (semantic + BM25) over your own documents | Python |
+| [GraphJin](https://github.com/dosco/graphjin) | One governed graph for AI agents — GraphQL + MCP over your databases, files, APIs, and code | Go |
 
 ## Memory & Context Management
 
@@ -599,6 +611,7 @@ AI-powered security tools, PII anonymization, and penetration testing frameworks
 | [ADR](https://github.com/uber/ADR) | Secures enterprise AI agents through observability, security benchmarking, and threat detection; deployed at Uber. | Python |
 | [SynthID Text](https://github.com/google-deepmind/synthid-text) | Google DeepMind's text watermarking toolkit for identifying AI-generated content | Python |
 | [watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | Privacy-first app that strips AI watermarks from content you own | Python |
+| [rea](https://github.com/morluto/rea) | Reverse engineer anything with agents — from app behavior down to native binaries, via MCP | TypeScript |
 
 ## UI/UX & Design Tools
 
@@ -621,6 +634,7 @@ Tools for design, prototyping, and UI/UX workflows.
 | [motion-anything](https://github.com/nexu-io/motion-anything) | ✨ The agentic motion layer — an open-source, chat-native motion engine. Describe the feeling; your AI ships the animation. | JavaScript |
 | [image-extender](https://github.com/boona13/image-extender) | Seamlessly extend any image in any direction with AI — Poisson-blended seams and a best-of-3 variant picker, powered by Gemini via OpenRouter. | TypeScript |
 | [tldraw offline](https://offline.tldraw.com/) | An offline-capable whiteboard application for your desktop that can be used with AI tools. Provides a free, collaborative drawing canvas that works without internet. | TypeScript |
+| [OpenIntelligentUI](https://github.com/CopilotKit/OpenIntelligentUI) | Open-Source Generative UI Framework — answers you can interact with (3D explanations, charts, working tools, maps) | TypeScript |
 
 ## Voice & Audio AI
 
@@ -680,6 +694,7 @@ Frameworks and platforms for building modern web applications and commerce.
 | [Univer](https://github.com/dream-num/univer) | Full-stack framework for creating and editing spreadsheets, word processors, and presentations on both web and server. | TypeScript |
 | [open-slide](https://github.com/1weiho/open-slide) | A slide framework built for agents | TypeScript |
 | [here.now](https://here.now/) | Instant static web hosting for agents — publish any file or folder to a live URL, no account needed | SaaS |
+| [here.now](https://here.now/) | Instant static web hosting for agents — publish any file or folder to a live URL, no account needed | SaaS |
 
 ---
 
@@ -706,6 +721,7 @@ Tools for web scraping, crawling, and browser automation.
 | [pinchtab](https://github.com/pinchtab/pinchtab) | High-performance browser automation bridge and multi-instance orchestrator with stealth injection and a real-time dashboard. | Go |
 | [nanobrowser](https://github.com/nanobrowser/nanobrowser) | Open-source Chrome extension for AI-powered web automation with multi-agent workflows (BYOK) | TypeScript |
 | [hister](https://github.com/asciimoo/hister) | Your own self-hosted search engine | Go |
+| [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) | Computer use for ~$0.0002/step: OCR the screen, classify next action with TypeSafe, click. macOS. | Python |
 
 ## French Admin & Finance Skills
 
@@ -794,6 +810,7 @@ Tools related to data & open data.
 | [asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | ASD-STE100 Simplified Technical English rules as a skill for rewriting ambiguous agent-facing text | Python |
 | [unlazy](https://github.com/Leonxlnx/unlazy) | Anti-laziness skill using the Depth Tree method to multiply agent effort with task depth | JavaScript |
 | [skillshare](https://github.com/runkids/skillshare) | Sync agent skills across all AI CLI tools (Codex, Claude Code, OpenClaw) with one command | Go |
+| [waza](https://github.com/microsoft/waza) | CLI/Framework for Agent Skills — create, test, measure and improve skill quality and effectiveness | Go |
 
 ## Computer Vision
 
