@@ -694,7 +694,6 @@ Frameworks and platforms for building modern web applications and commerce.
 | [Univer](https://github.com/dream-num/univer) | Full-stack framework for creating and editing spreadsheets, word processors, and presentations on both web and server. | TypeScript |
 | [open-slide](https://github.com/1weiho/open-slide) | A slide framework built for agents | TypeScript |
 | [here.now](https://here.now/) | Instant static web hosting for agents — publish any file or folder to a live URL, no account needed | SaaS |
-| [here.now](https://here.now/) | Instant static web hosting for agents — publish any file or folder to a live URL, no account needed | SaaS |
 
 ---
 
